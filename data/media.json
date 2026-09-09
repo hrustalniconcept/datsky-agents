@@ -5,252 +5,252 @@
   {
    "s": "assets/img/common/terrasa-zakat.jpg",
    "th": "assets/img/common/terrasa-zakat-t.jpg",
-   "t": "Терраса на закате: стол накрыт, вид открыт",
+   "t": "Ужин на воздухе, не выходя из дома. В городской квартире такого вечера не бывает",
    "k": "terrasa",
    "real": true
   },
   {
    "s": "assets/img/common/terrasa-uzhin.jpg",
    "th": "assets/img/common/terrasa-uzhin-t.jpg",
-   "t": "Ужин на террасе третьего этажа",
+   "t": "Гостей можно звать к себе, а не в кафе. Стол на восьмерых помещается",
    "k": "terrasa",
    "real": true
   },
   {
    "s": "assets/img/common/terrasa-vecher.jpg",
    "th": "assets/img/common/terrasa-vecher-t.jpg",
-   "t": "Вечер на террасе",
+   "t": "Вечер начинается дома, а не в дороге с работы",
    "k": "terrasa",
    "real": true
   },
   {
    "s": "assets/img/common/terrasa-kreslo.jpg",
    "th": "assets/img/common/terrasa-kreslo-t.jpg",
-   "t": "Кресло и плед: терраса как вторая комната",
+   "t": "Плед, кофе и тишина в десяти шагах от кухни. Круглый год",
    "k": "terrasa",
    "real": true
   },
   {
    "s": "assets/img/common/terrasa-uyut.jpg",
    "th": "assets/img/common/terrasa-uyut-t.jpg",
-   "t": "Терраса, обжитая под себя",
+   "t": "Через год терраса выглядит так, как её обжили. У каждой свой характер",
    "k": "terrasa",
    "real": true
   },
   {
    "s": "assets/img/common/balkon-vid.jpg",
    "th": "assets/img/common/balkon-vid-t.jpg",
-   "t": "Балкон с видом на квартал",
+   "t": "Место, чтобы выдохнуть, — там, где в городской квартире того же бюджета его просто нет",
    "k": "balkon",
    "real": true
   },
   {
    "s": "assets/img/common/balkon-cvety.jpg",
    "th": "assets/img/common/balkon-cvety-t.jpg",
-   "t": "Балкон: цветы, подушки, утренний кофе",
+   "t": "Утро начинается не с пробки. Кофе, цветы и вид вместо парковки под окном",
    "k": "balkon",
    "real": true
   },
   {
    "s": "assets/img/common/aero-zakat.jpg",
    "th": "assets/img/common/aero-zakat-t.jpg",
-   "t": "Хрустальный парк и залив на закате",
+   "t": "Лес и вода начинаются сразу за домами. Ехать к природе не нужно — вы в ней живёте",
    "k": "aero",
    "real": true
   },
   {
    "s": "assets/img/common/aero-zaliv.jpg",
    "th": "assets/img/common/aero-zaliv-t.jpg",
-   "t": "Квартал с высоты, залив на горизонте",
+   "t": "До залива около пятисот метров. Это про вечер вторника, а не про планы на выходные",
    "k": "aero",
    "real": true
   },
   {
    "s": "assets/img/common/aero-nizko.jpg",
    "th": "assets/img/common/aero-nizko-t.jpg",
-   "t": "Кровли и улицы в вечернем свете",
+   "t": "Малоэтажка целиком: ни одной башни, ни одного двора-колодца",
    "k": "aero",
    "real": true
   },
   {
    "s": "assets/img/common/dupleksy-ryad.jpg",
    "th": "assets/img/common/dupleksy-ryad-t.jpg",
-   "t": "Ряд дуплексов",
+   "t": "Шесть квартир в доме. Соседей знаешь в лицо, в подъезде тихо",
    "k": "dom",
    "real": true
   },
   {
    "s": "assets/img/common/dupleks-fasad.jpg",
    "th": "assets/img/common/dupleks-fasad-t.jpg",
-   "t": "МКД на 24 квартиры: центральный вход, лифт",
+   "t": "Двадцать четыре квартиры, лифт и колясочная. Не триста незнакомых соседей",
    "k": "dom",
    "real": true
   },
   {
    "s": "assets/img/common/balkony-fasad.jpg",
    "th": "assets/img/common/balkony-fasad-t.jpg",
-   "t": "Балконы и террасы со стороны двора",
+   "t": "У каждой квартиры своё место под открытым небом — балкон или терраса",
    "k": "dom",
    "real": true
   },
   {
    "s": "assets/img/common/vhod-kirpich.jpg",
    "th": "assets/img/common/vhod-kirpich-t.jpg",
-   "t": "Входная группа: кирпич ручной формовки",
+   "t": "Кирпич ручной формовки вместо штукатурки. Дом, который не стыдно показать",
    "k": "dom",
    "real": true
   },
   {
    "s": "assets/img/common/podezd.jpg",
    "th": "assets/img/common/podezd-t.jpg",
-   "t": "Вход в подъезд",
+   "t": "Дверь подъезда, за которой коляска и велосипеды живут не в прихожей",
    "k": "dom",
    "real": true
   },
   {
    "s": "assets/img/common/ulica.jpg",
    "th": "assets/img/common/ulica-t.jpg",
-   "t": "Улица между домами",
+   "t": "Проезды семь с половиной и девять с половиной метров. Разъезжаться ни с кем не нужно",
    "k": "dom",
    "real": true
   },
   {
    "s": "assets/img/common/fasad-mkd.jpg",
    "th": "assets/img/common/fasad-mkd-t.jpg",
-   "t": "Фасады МКД",
+   "t": "Кирпич снаружи и кирпич внутри: между вами и соседом тридцать восемь сантиметров",
    "k": "dom",
    "real": true
   },
   {
    "s": "assets/img/common/dvor-park.jpg",
    "th": "assets/img/common/dvor-park-t.jpg",
-   "t": "Двор-парк без машин",
+   "t": "Ребёнка можно отпустить одного: машины остались по периметру",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/dvor-deti.jpg",
    "th": "assets/img/common/dvor-deti-t.jpg",
-   "t": "Двор с детской площадкой",
+   "t": "Площадка под окнами. Не «когда-нибудь построят», а уже работает",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/kacheli.jpg",
    "th": "assets/img/common/kacheli-t.jpg",
-   "t": "Качели-гнездо",
+   "t": "Двор, из которого ребёнка приходится звать домой",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/pergola.jpg",
    "th": "assets/img/common/pergola-t.jpg",
-   "t": "Пергола",
+   "t": "Место, где соседи знакомятся сами собой",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/dorozhki.jpg",
    "th": "assets/img/common/dorozhki-t.jpg",
-   "t": "Дорожки и газон",
+   "t": "За газоном и дорожками следит управляющая компания, а не вы в свою субботу",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/sport.jpg",
    "th": "assets/img/common/sport-t.jpg",
-   "t": "Теннисный стол и воркаут",
+   "t": "Чем занять ребёнка, не садясь в машину",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/kreslo.jpg",
    "th": "assets/img/common/kreslo-t.jpg",
-   "t": "Кресло-качели",
+   "t": "Мелочи, которых не бывает в типовом дворе",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/pergola-dvor.jpg",
    "th": "assets/img/common/pergola-dvor-t.jpg",
-   "t": "Пергола и дорожки во дворе",
+   "t": "Двор спроектирован как парк: есть где сидеть, а не только где парковаться",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/leto-vo-dvore.jpg",
    "th": "assets/img/common/leto-vo-dvore-t.jpg",
-   "t": "Лето во дворе",
+   "t": "Лето, которое ребёнок проводит на улице, а не у окна",
    "k": "lyudi",
    "real": true
   },
   {
    "s": "assets/img/common/deti-veliki.jpg",
    "th": "assets/img/common/deti-veliki-t.jpg",
-   "t": "Дети едут на великах сами, без взрослых",
+   "t": "Здесь ребёнка отпускают одного — и это обычный вторник, а не подвиг родителей",
    "k": "lyudi",
    "real": true
   },
   {
    "s": "assets/img/common/alleya-deti.jpg",
    "th": "assets/img/common/alleya-deti-t.jpg",
-   "t": "Аллея между кварталами",
+   "t": "Гулять можно по всему микрорайону, а не по своему двору",
    "k": "lyudi",
    "real": true
   },
   {
    "s": "assets/img/common/workout.jpg",
    "th": "assets/img/common/workout-t.jpg",
-   "t": "Воркаут во дворе",
+   "t": "Спорт в двух минутах от подъезда, без абонемента и без поездки",
    "k": "lyudi",
    "real": true
   },
   {
    "s": "assets/img/common/samokat.jpg",
    "th": "assets/img/common/samokat-t.jpg",
-   "t": "Улица квартала",
+   "t": "Улица, по которой спокойно едет ребёнок",
    "k": "lyudi",
    "real": true
   },
   {
    "s": "assets/img/common/gortenzii.jpg",
    "th": "assets/img/common/gortenzii-t.jpg",
-   "t": "Гортензии у домов",
+   "t": "Зелень, за которой ухаживают без вашего участия",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/ploshchadka.jpg",
    "th": "assets/img/common/ploshchadka-t.jpg",
-   "t": "Двор с площадкой",
+   "t": "Двор, в котором дети находят компанию за один вечер",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/besedka.jpg",
    "th": "assets/img/common/besedka-t.jpg",
-   "t": "Беседка во дворе",
+   "t": "Место для дня рождения, которое не надо бронировать",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/sapy.jpg",
    "th": "assets/img/common/sapy-t.jpg",
-   "t": "Сапы на заливе после работы",
+   "t": "Вода в пятистах метрах. Сап после работы вместо пробки домой",
    "k": "priroda",
    "real": true
   },
   {
    "s": "assets/img/common/sap-zakat.jpg",
    "th": "assets/img/common/sap-zakat-t.jpg",
-   "t": "Закат на воде в пятистах метрах от дома",
+   "t": "Так выглядит обычный будний вечер, если жить здесь",
    "k": "priroda",
    "real": true
   },
   {
    "s": "assets/img/common/vis-terrasa.jpg",
    "th": "assets/img/common/vis-terrasa-t.jpg",
-   "t": "Терраса, визуализация",
+   "t": "Как терраса выглядит, когда её обжили. Визуализация",
    "k": "terrasa",
    "real": false,
    "place": "визуализация"
@@ -258,7 +258,7 @@
   {
    "s": "assets/img/common/vis-uchastok.jpg",
    "th": "assets/img/common/vis-uchastok-t.jpg",
-   "t": "Закреплённый придомовый участок, визуализация",
+   "t": "Закреплённый придомовый участок: своя земля без забот частного дома. Визуализация",
    "k": "uchastok",
    "real": false,
    "place": "визуализация"
@@ -266,7 +266,7 @@
   {
    "s": "assets/img/common/vis-terrasy.jpg",
    "th": "assets/img/common/vis-terrasy-t.jpg",
-   "t": "Террасы при квартирах, визуализация",
+   "t": "Террасы при квартирах верхних этажей. Визуализация",
    "k": "terrasa",
    "real": false,
    "place": "визуализация"
@@ -274,7 +274,7 @@
   {
    "s": "assets/img/common/vis-uchastki.jpg",
    "th": "assets/img/common/vis-uchastki-t.jpg",
-   "t": "Участки при квартирах, визуализация",
+   "t": "Участки у квартир первых этажей. Визуализация",
    "k": "uchastok",
    "real": false,
    "place": "визуализация"
@@ -3181,21 +3181,21 @@
   {
    "s": "assets/img/common/aero-zakat.jpg",
    "th": "assets/img/common/aero-zakat-t.jpg",
-   "t": "Хрустальный парк и залив на закате",
+   "t": "Лес и вода начинаются сразу за домами. Ехать к природе не нужно — вы в ней живёте",
    "k": "aero",
    "real": true
   },
   {
    "s": "assets/img/common/aero-zaliv.jpg",
    "th": "assets/img/common/aero-zaliv-t.jpg",
-   "t": "Квартал с высоты, залив на горизонте",
+   "t": "До залива около пятисот метров. Это про вечер вторника, а не про планы на выходные",
    "k": "aero",
    "real": true
   },
   {
    "s": "assets/img/common/aero-nizko.jpg",
    "th": "assets/img/common/aero-nizko-t.jpg",
-   "t": "Кровли и улицы в вечернем свете",
+   "t": "Малоэтажка целиком: ни одной башни, ни одного двора-колодца",
    "k": "aero",
    "real": true
   }
