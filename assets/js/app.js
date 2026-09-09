@@ -71,6 +71,7 @@ window.DK = (function () {
 
   var NAV = [
     { p: '', t: 'Главная', s: 'Главная' },
+    { p: 'about', t: 'О проекте и качестве', s: 'О проекте' },
     { p: 'flats', t: 'Квартиры и цены', s: 'Квартиры и цены' },
     { p: 'plans', t: 'Планировки и метражи', s: 'Планировки' },
     { p: 'life', t: 'Образ жизни в квартале', s: 'Образ жизни' },
@@ -397,7 +398,7 @@ window.DK = (function () {
     modal = document.getElementById('modal');
     modalWin = document.getElementById('modalWin');
 
-    var files = ['registry', 'types', 'infrastructure', 'agents_terms', 'finance', 'site', 'articles', 'video', 'lifestyle', 'media', 'life', 'tour', 'updates', 'competition'];
+    var files = ['registry', 'types', 'infrastructure', 'agents_terms', 'finance', 'site', 'articles', 'video', 'lifestyle', 'media', 'life', 'tour', 'updates', 'competition', 'project'];
     Promise.all(files.map(function (f) {
       return fetch('data/' + f + '.json', { cache: 'no-cache' }).then(function (r) {
         if (!r.ok) throw new Error(f);

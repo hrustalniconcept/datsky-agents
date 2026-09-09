@@ -425,12 +425,11 @@
     var maxCom = Math.max.apply(null, r.lots.map(function (l) { return (l.cena_akciya || l.cena_bazovaya) * DK.RATE; }));
     var minPrice = Math.min.apply(null, r.lots.map(function (l) { return l.cena_akciya || l.cena_bazovaya; }));
 
-    var hero = commonBy('terrasa', 2)
+    var hero = commonBy('terrasa', 3)
       .concat(commonBy('lyudi', 3))
-      .concat(commonBy('aero', 1))
-      .concat(commonBy('dom', 2))
-      .concat(commonBy('balkon', 1))
-      .concat(commonBy('priroda', 1))
+      .concat(commonBy('aero', 3))
+      .concat(commonBy('dom', 3))
+      .concat(commonBy('balkon', 2))
       .concat(commonBy('dvor', 1));
 
     var tasks = [
@@ -467,6 +466,18 @@
       '</div>'
     ) +
 
+    (function () {
+      var N = d().project.nagrady.list;
+      return sec(
+        eyebrow('Чем снять недоверие за десять секунд') +
+        '<h2>Три года подряд забираем федеральные награды</h2>' +
+        '<div class="grid g4">' + N.map(function (n) {
+          return '<div class="award award--sm"><span class="award__y">' + esc(n.y) + '</span>' +
+            '<h4>' + esc(n.t) + '</h4><p class="award__n">' + esc(n.n) + '</p></div>';
+        }).join('') + '</div>' +
+        '<p class="small" style="margin-top:14px">Стройку финансирует ПАО «Сбербанк», деньги покупателей до передачи ключей лежат на эскроу по 214-ФЗ. <a href="#/about">Все доказательства качества →</a></p>'
+      );
+    })() +
     sec(
       '<h2>С чего начать</h2>' +
       '<div class="grid g4">' + tasks.map(function (x) {
@@ -1432,6 +1443,78 @@
     );
   }
 
+
+  /* ================= О проекте ================= */
+  function about() {
+    var P = d().project;
+    function tbl(rows, head) {
+      return '<div class="tbl-scroll"><table class="tbl">' +
+        (head ? '<thead><tr>' + head.map(function (h) { return '<th>' + esc(h) + '</th>'; }).join('') + '</tr></thead>' : '') +
+        '<tbody>' + rows.map(function (r) {
+          return '<tr>' + r.map(function (c, i) { return '<td' + (i === 0 ? ' style="width:34%"><b>' + esc(c) + '</b>' : '>' + esc(c)) + '</td>'; }).join('') + '</tr>';
+        }).join('') + '</tbody></table></div>';
+    }
+    return sec(
+      eyebrow('Чем доказать качество') +
+      '<h1>О проекте</h1>' +
+      '<p class="lead">' + esc(P.lead) + '</p>' +
+      '<div class="grid g4">' + P.masshtab.map(function (m) { return stat(esc(m[0]), m[1]); }).join('') + '</div>'
+    ) +
+    sec(
+      '<h2>Награды</h2>' +
+      '<p class="lead">' + esc(P.nagrady.lead) + '</p>' +
+      '<div class="grid g2">' + P.nagrady.list.map(function (n) {
+        return '<div class="award"><span class="award__y">' + esc(n.y) + '</span>' +
+          '<h3>' + esc(n.t) + '</h3><p class="award__n">' + esc(n.n) + '</p>' +
+          '<p class="small" style="margin:0">' + esc(n.d) + '</p></div>';
+      }).join('') + '</div>' +
+      note('Нужны файлы', esc(P.nagrady.logo_todo)),
+      'section--alt'
+    ) +
+    sec(
+      '<h2>' + esc(P.sber.title) + '</h2>' +
+      '<p class="lead">' + esc(P.sber.d) + '</p>' +
+      '<blockquote>' + esc(P.sber.argument) + '</blockquote>',
+      'section--dark'
+    ) +
+    sec(
+      '<h2>Как построено</h2>' +
+      '<p class="lead">' + esc(P.konstruktiv.lead) + '</p>' +
+      '<div class="tbl-scroll"><table class="tbl"><thead><tr><th>Факт</th><th>Что это даёт клиенту</th></tr></thead><tbody>' +
+      P.konstruktiv.rows.map(function (r) {
+        return '<tr><td style="width:44%"><b>' + esc(r.f) + '</b>' +
+          (r.s ? '<br><span class="small" style="color:var(--c-brand)">' + esc(r.s) + '</span>' : '') +
+          '</td><td>' + esc(r.z) + '</td></tr>';
+      }).join('') + '</tbody></table></div>'
+    ) +
+    sec(
+      '<h2>Инженерия и сети</h2>' +
+      '<p class="lead">' + esc(P.inzheneriya.lead) + '</p>' +
+      tbl(P.inzheneriya.rows, ['Что', 'Как устроено', 'Что это значит']) +
+      note('Частый вопрос на показе', esc(P.inzheneriya.aktsent)),
+      'section--alt'
+    ) +
+    sec(
+      '<h2>Дом и подъезд</h2>' +
+      '<p class="lead">' + esc(P.dom.lead) + '</p>' +
+      tbl(P.dom.rows)
+    ) +
+    sec(
+      '<h2>Квартал и двор</h2>' +
+      '<p class="lead">' + esc(P.kvartal.lead) + '</p>' +
+      tbl(P.kvartal.rows) +
+      gallery(commonBy('dvor', 4).concat(commonBy('aero', 2)), 'gal--wide'),
+      'section--alt'
+    ) +
+    sec(
+      '<h2>Гарантия и обслуживание</h2>' +
+      tbl(P.garantiya.rows) +
+      note('Предупредить клиента заранее', esc(P.garantiya.vazhno), 'warn') +
+      '<div class="actions"><a class="btn" href="#/plans">Планировки и метражи</a>' +
+      '<a class="btn btn--ghost" href="#/client">Как выигрывать сравнение</a></div>'
+    );
+  }
+
   function notfound() {
     return sec('<h1>Такой страницы нет</h1><p class="lead">Проверьте адрес или начните с <a href="#/">главной</a>.</p>');
   }
@@ -1439,6 +1522,6 @@
   DK.views = {
     '': home, flats: flats, plans: plans, client: client, terms: terms,
     media: media, kb: kb, video: video, park: park, finance: finance,
-    tours: tours, life: life, tour: tour, community: community, notfound: notfound
+    tours: tours, life: life, tour: tour, about: about, community: community, notfound: notfound
   };
 })();
