@@ -451,8 +451,9 @@
 
     return sec(
       eyebrow('Партнёрам · реестр от ' + esc(s.obnovleno)) +
-      '<h1>Здесь продаётся то, чего в городе нет</h1>' +
-      '<p class="lead">Кухня-гостиная на 42 метра. Терраса, за которую клиент платит треть, а пользуется целиком. Участок под окнами первого этажа. Квартал сдан в декабре 2025-го, соседи живут, ключи отдаём после сделки. Ваша комиссия — 4,5%: на большом формате это больше 700 тысяч с одной сделки.</p>' +
+      '<h1>Третий вариант, которого ваш клиент не рассматривал</h1>' +
+      '<p class="lead">Он мечется между тесной городской трёшкой и домом, в который потом два года вкладываться. Покажите ему кухню-гостиную на 42 метра, террасу и участок под окнами — там, где уже проложены центральная канализация, ливнёвка, асфальт и освещение, а до магазина три минуты пешком.</p>' +
+      '<p class="lead">Квартал сдан в декабре 2025-го. Соседи живут, ключи после сделки, ждать нечего. Ваша комиссия — 4,5% от цены договора: на большом формате это до 768 тысяч с одной сделки.</p>' +
       '<div class="actions" style="margin-bottom:34px">' +
       '<a class="btn" href="#/flats">Открыть реестр</a>' +
       '<a class="btn btn--ghost" href="#/tour">Фотоэкскурсия</a>' +
@@ -486,6 +487,35 @@
       '<a class="btn btn--ghost" href="#/client">Ответы на возражения</a></div>'
     ) +
 
+
+    (function () {
+      var C = d().competition;
+      return sec(
+        eyebrow('Что отвечать, когда сравнивают') +
+        '<h2>Дом больше. Город ближе. Мы посередине, и это выигрышная позиция</h2>' +
+        '<p class="lead">' + esc(C.glavnoe) + '</p>' +
+        '<div class="grid g2">' +
+        '<div class="card card--pad"><h3>Против дома на участке</h3>' +
+        '<p class="small">Центральные сети и канализация в городские очистные, ливнёвка, асфальт, уличное освещение, 107 парковочных мест и двор без машин. Магазин, пекарня, ФАП, аптека и садик — пешком. В доме за те же деньги всего этого нет, и достраивать это придётся годами.</p>' +
+        '<a href="#/client">Таблица сравнения →</a></div>' +
+        '<div class="card card--pad"><h3>Против городской квартиры</h3>' +
+        '<p class="small">Кафе рядом меньше — признаём сразу. Но до Байкал-Арены отсюда 14 минут и два светофора, а из городского комплекса в четырёх километрах — 11 минут и пять. Плюс кухня-гостиная 34–42 метра, два санузла с 63 квадратов и место, где реально работать из дома.</p>' +
+        '<a href="#/client">Аргументы целиком →</a></div>' +
+        '</div>' +
+        '<div class="actions"><a class="btn" href="#/client">Как выигрывать сравнение</a>' +
+        '<a class="btn btn--ghost" href="#/plans">Что внутри квартир</a></div>'
+      ) +
+      sec(
+        eyebrow('Разговор о сроке') +
+        '<h2>' + esc(C.srochnost.title) + '</h2>' +
+        '<div class="grid g4">' + C.srochnost.punkty.map(function (p) {
+          return '<div class="card"><h4>' + esc(p.t) + '</h4><p class="small" style="margin:0">' + esc(p.d) + '</p></div>';
+        }).join('') + '</div>' +
+        '<blockquote style="margin-top:22px">' + esc(C.srochnost.kak_govorit) + '</blockquote>' +
+        '<p class="small">Конкретный рост цены в процентах и будущие ставки не обещаем. Подробнее — в разделе «Работа с клиентом».</p>',
+        'section--alt'
+      );
+    })() +
     sec(
       eyebrow('Как вы получаете деньги') +
       '<h2>Комиссия 4,5% — всегда и сразу</h2>' +
@@ -701,6 +731,51 @@
       'section--alt'
     ) +
 
+
+    (function () {
+      var C = d().competition;
+      return sec(
+        eyebrow('Как выигрывать сравнение') +
+        '<h2>С чем нас сравнивают</h2>' +
+        '<p class="lead">' + esc(C.lead) + '</p>' +
+        '<blockquote>' + esc(C.glavnoe) + '</blockquote>'
+      ) +
+      sec(
+        '<h2>' + esc(C.dom.title) + '</h2>' +
+        '<p class="lead">' + esc(C.dom.lead) + '</p>' +
+        '<blockquote>' + esc(C.dom.vopros) + '</blockquote>' +
+        '<div class="tbl-scroll"><table class="tbl"><thead><tr><th></th><th>Дом за те же деньги</th><th>Квартира в Датском</th></tr></thead><tbody>' +
+        C.dom.table.map(function (r) {
+          return '<tr><td><b>' + esc(r[0]) + '</b></td><td>' + esc(r[1]) + '</td><td>' + esc(r[2]) + '</td></tr>';
+        }).join('') + '</tbody></table></div>' +
+        '<h3>Фразы, которые работают</h3>' +
+        '<ul class="list-a">' + C.dom.frazy.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>',
+        'section--alt'
+      ) +
+      sec(
+        '<h2>' + esc(C.gorod.title) + '</h2>' +
+        '<p class="lead">' + esc(C.gorod.lead) + '</p>' +
+        note('Признаём вслух и первыми', esc(C.gorod.priznanie)) +
+        '<blockquote>' + esc(C.gorod.vopros) + '</blockquote>' +
+        '<div class="grid g2">' + C.gorod.argumenty.map(function (a) {
+          return '<div class="card"><h4>' + esc(a.t) + '</h4><p class="small" style="margin:0">' + esc(a.d) + '</p></div>';
+        }).join('') + '</div>' +
+        '<ul class="list-a" style="margin-top:20px">' + C.gorod.frazy.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>'
+      ) +
+      sec(
+        '<h2>' + esc(C.srochnost.title) + '</h2>' +
+        '<p class="lead">' + esc(C.srochnost.lead) + '</p>' +
+        '<div class="grid g2">' + C.srochnost.punkty.map(function (p) {
+          return '<div class="card"><h4>' + esc(p.t) + '</h4><p class="small" style="margin:0 0 8px">' + esc(p.d) + '</p>' +
+            '<span class="pill">' + esc(p.status) + '</span></div>';
+        }).join('') + '</div>' +
+        '<h3>Как это произнести</h3>' +
+        '<blockquote>' + esc(C.srochnost.kak_govorit) + '</blockquote>' +
+        '<h3>Чего не делаем</h3>' +
+        '<ul class="list-a">' + C.srochnost.chego_ne_delaem.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>',
+        'section--dark'
+      );
+    })() +
     sec(
       '<h2>Подбор формата</h2>' +
       '<p class="lead">' + esc(PF.lead) + '</p>' +
@@ -844,6 +919,15 @@
       '<div class="actions"><a class="btn btn--ghost" href="#/tours">Расписание экскурсий</a><a class="btn btn--ghost" href="#/finance">Финансы и расчёты</a></div>',
       'section--dark'
     ) +
+    (function () {
+      var R = d().competition.rieltoru;
+      return sec(
+        '<h2>' + esc(R.title) + '</h2>' +
+        '<div class="grid g2">' + R.punkty.map(function (p) {
+          return '<div class="card"><h4>' + esc(p.t) + '</h4><p class="small" style="margin:0">' + esc(p.d) + '</p></div>';
+        }).join('') + '</div>'
+      );
+    })() +
     sec(
       '<h2>Правила формулировок</h2>' +
       '<p class="lead">Обязательны для объявлений, переписки и разговора на показе. Одна неточность про террасу стоит дороже, чем кажется: клиент померяет рулеткой.</p>' +

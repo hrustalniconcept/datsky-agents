@@ -397,7 +397,7 @@ window.DK = (function () {
     modal = document.getElementById('modal');
     modalWin = document.getElementById('modalWin');
 
-    var files = ['registry', 'types', 'infrastructure', 'agents_terms', 'finance', 'site', 'articles', 'video', 'lifestyle', 'media', 'life', 'tour', 'updates'];
+    var files = ['registry', 'types', 'infrastructure', 'agents_terms', 'finance', 'site', 'articles', 'video', 'lifestyle', 'media', 'life', 'tour', 'updates', 'competition'];
     Promise.all(files.map(function (f) {
       return fetch('data/' + f + '.json', { cache: 'no-cache' }).then(function (r) {
         if (!r.ok) throw new Error(f);
