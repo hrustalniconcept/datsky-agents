@@ -350,7 +350,7 @@
     var t = d().types;
     return Object.keys(t).map(function (k) { var o = JSON.parse(JSON.stringify(t[k])); o.key = k; return o; })
       .sort(function (a, b) {
-        var oa = a.ochered_reklamy === 'стоп' ? 99 : a.ochered_reklamy, ob = b.ochered_reklamy === 'стоп' ? 99 : b.ochered_reklamy;
+        var oa = a._prioritet_marketinga === 'стоп' ? 99 : a._prioritet_marketinga, ob = b._prioritet_marketinga === 'стоп' ? 99 : b._prioritet_marketinga;
         return (oa - ob) || (b.prays_mln - a.prays_mln);
       });
   }
@@ -656,7 +656,7 @@
       '<div class="rows">' + list.map(function (t) {
         var ph = DK.photosOfType(t.key)[0];
         return '<a href="#/plans/' + t.key + '">' +
-          '<div class="row__top"><span class="small">Тип ' + t.key + ' · очередь рекламы ' + esc(t.ochered_reklamy) + '</span>' +
+          '<div class="row__top"><span class="small">Тип ' + t.key + ' · ' + DK.plural(t.lotov, 'квартира', 'квартиры', 'квартир') + ' в продаже</span>' +
           (t.shourum ? '<span class="badge badge--sub">показ: ' + esc(t.shourum) + '</span>' : '') + '</div>' +
           '<h3 style="margin-bottom:6px">' + esc(t.name) + '</h3>' +
           '<p class="small" style="margin:0 0 8px">' + esc(t.offer) + '</p>' +
@@ -711,13 +711,11 @@
       '<p class="lead">' + esc(t.offer) + '</p>' +
       '<div class="grid g4">' +
       stat(t.lotov, 'лотов') + stat(mln(t.cena_ot), 'цена от') +
-      stat(num(t.prays_mln, 1) + ' млн', 'прайс типа') + stat(esc(t.ochered_reklamy), 'очередь рекламы') +
+      stat(num(t.prays_mln, 1) + ' млн', 'прайс типа') + stat(money(t.cena_akt_ot * DK.RATE), 'ваша комиссия от') +
       '</div>' +
-      (t.ochered_reklamy === 'стоп'
-        ? note('Формат без акции', 'Ни скидки, ни субсидии, ни террасы. Квартиры в реестре и доступны для показа, но отдельную рекламную кампанию под них пока не ведём.', 'warn')
-        : (t.vnimanie ? note('Требует подтверждения', esc(t.vnimanie), 'warn') : '')) +
+      (t.vnimanie ? note('Уточнить перед показом', esc(t.vnimanie), 'warn') : '') +
       '<div class="grid g2" style="margin-top:20px">' +
-      '<div class="card"><h4>Кому показываем</h4><p class="small" style="margin:0">' + (t.komu && t.komu !== '—' ? esc(t.komu) : 'Портрет не описан — тип пока без оффера. Показываем как альтернативу по площади и цене.') + '</p></div>' +
+      '<div class="card"><h4>Кому показываем</h4><p class="small" style="margin:0">' + (t.komu && t.komu !== '—' ? esc(t.komu) : 'Показываем как альтернативу по площади и цене тем, кто смотрел соседний формат.') + '</p></div>' +
       '<div class="card"><h4>Квартира, подготовленная к показу</h4><p class="small" style="margin:0">' + (t.shourum ? esc(t.shourum) : 'По этому типу подготовленной квартиры нет. Показываем по фото и планировке либо соседний тип в том же доме.') + '</p></div>' +
       '</div>'
     ) +
@@ -1337,7 +1335,7 @@
 
   function life() {
     var L = d().life;
-    var pics = commonBy('lyudi', 6).concat(commonBy('dvor', 3)).concat(commonBy('zima', 2)).concat(commonBy('priroda', 2)).concat(commonBy('aero', 2));
+    var pics = commonBy('lyudi', 8).concat(commonBy('dvor', 4)).concat(commonBy('priroda', 2)).concat(commonBy('zima', 2)).concat(commonBy('aero', 2));
 
     return sec(
       eyebrow('То, что нельзя скопировать') +
@@ -1360,9 +1358,14 @@
     ) +
 
     sec(
-      eyebrow(DK.plural(L.meropriyatiya.length, 'ролик', 'ролика', 'роликов') + ' с мероприятий') +
+      '<h2>Квартал в разные сезоны</h2>' +
+      '<p class="lead">Кадры для показа и для объявлений: двор летом и зимой, вода рядом, вид с высоты.</p>' +
+      gallery(commonBy('dvor').slice(4).concat(commonBy('zima')).concat(commonBy('terrasa', 3)).concat(commonBy('dom', 3)), 'gal--wide')
+    ) +
+    sec(
+      eyebrow(DK.plural(L.meropriyatiya.length, 'ролик', 'ролика', 'роликов') + ' с мероприятий и из жизни квартала') +
       '<h2>Как это выглядит вживую</h2>' +
-      '<p class="lead">Праздники, субботники и квесты за три года. Любую ссылку можно переслать клиенту — Telegram откроется в браузере, ставить приложение не нужно.</p>' +
+      '<p class="lead">Праздники, субботники, квесты и просто будни за три года. Любую ссылку можно переслать клиенту — Telegram откроется в браузере, ставить приложение не нужно. Это готовые короткие ролики: их не надо монтировать, достаточно отправить.</p>' +
       '<div class="vids">' + L.meropriyatiya.map(function (v) {
         return '<a class="vid" href="' + tg(v.id) + '" target="_blank" rel="noopener">' +
           '<span class="vid__top"><span class="vid__dur">' + esc(v.dur) + '</span></span>' +
