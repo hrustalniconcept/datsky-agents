@@ -1406,7 +1406,7 @@
       '<p class="lead">' + esc(L.priroda.lead) + '</p>' +
       gallery(mix([commonBy('zaliv'), commonBy('les'), commonBy('sport'), commonBy('arh')]), 'gal--wide') +
       '<div class="grid g3">' + L.priroda.punkty.map(function (p) {
-        return '<div class="card"><h4>' + esc(p.t) + '</h4><p class="small" style="margin:0">' + esc(p.d) + '</p></div>';
+        return '<div class="card"><h4>' + esc(p.t) + '</h4><p class="small">' + esc(p.d) + '</p>' + tgLinks(p.posts, 'смотреть') + '</div>';
       }).join('') + '</div>' +
       '<blockquote style="margin-top:22px">' + esc(L.priroda.vyvod) + '</blockquote>',
       'section--alt'
