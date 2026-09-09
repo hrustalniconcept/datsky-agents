@@ -119,6 +119,7 @@ window.DK = (function () {
       return;
     }
     var view = DK.views[r.path] || DK.views.notfound;
+    DK.seen = {};
     app.innerHTML = view(r);
     document.title = (DK.pageTitle || 'Датский квартал') + ' — партнёрский сайт';
     DK.pageTitle = null;

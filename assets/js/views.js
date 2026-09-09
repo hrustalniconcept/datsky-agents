@@ -22,6 +22,13 @@
   /* Галерея с лайтбоксом. list — массив {s, th, t} */
   function gallery(list, cls) {
     if (!list || !list.length) return '';
+    /* один и тот же кадр не повторяется в пределах страницы: DK.seen сбрасывает роутер */
+    DK.seen = DK.seen || {};
+    list = list.filter(function (x) {
+      if (!x || !x.s || DK.seen[x.s]) return false;
+      DK.seen[x.s] = 1; return true;
+    });
+    if (!list.length) return '';
     var payload = esc(JSON.stringify(list.map(function (x) { return { s: x.s, t: x.t }; })));
     return '<div class="gal ' + (cls || '') + '" data-gal-box="' + payload + '">' +
       list.map(function (x, i) {
@@ -440,17 +447,17 @@
 
     var hero = mix([
       commonBy('lyudi', 4),
-      commonBy('les', 3),
       commonBy('dvor', 3),
-      commonBy('sport', 3),
       commonBy('terrasa', 2),
-      commonBy('arh', 3),
-      commonBy('zaliv', 1),
-      commonBy('dom', 2),
+      commonBy('dom', 3),
+      commonBy('les', 1),
+      commonBy('arh', 1),
+      commonBy('sport', 1),
       commonBy('balkon', 1),
+      commonBy('uchastok', 1),
       commonBy('aero', 1),
-      commonBy('uchastok', 1)
-    ]).slice(0, 24);
+      commonBy('priroda', 1)
+    ]).slice(0, 18);
 
     var tasks = [
       ['Найти квартиру под клиента', 'Генплан, живой реестр, фильтры по спальням, террасе и участку. Фото есть почти по каждому лоту — отправляйте клиенту прямо отсюда.', '#/flats', 'Открыть реестр'],
@@ -472,8 +479,8 @@
     return sec(
       eyebrow('Партнёрам · реестр от ' + esc(s.obnovleno)) +
       '<h1>Объект, который продаёт себя сам. Ваша задача — привезти клиента</h1>' +
-      '<p class="lead">«Хрустальный парк» — девять кварталов на Байкальском тракте, больше трёх тысяч жителей. Датский сдан в декабре 2025-го: дома заселены, деревья растут, во дворах гуляют дети. Магазин, пекарня, кафе, ФАП, аптека и садик — пешком, до сорока с лишним секций Байкал-Арены четырнадцать минут, лес в ста метрах, залив примерно в пятистах. Больше тридцати событий в год, и половину придумывают сами жители.</p>' +
-      '<p class="lead">В вашем списке жилых комплексов второго такого нет, и это ваш аргумент. Уговаривать не придётся: покажите двор без машин, террасу на закате и соседей, которые здороваются. Через год клиент возвращается с рекомендацией, а не с претензией. Комиссия — 4,5% от цены договора, закрепление на 60 дней, персональный менеджер ведёт сделку вместе с вами.</p>' +
+      '<p class="lead">Датский — девятый квартал «Хрустального парка» на Байкальском тракте. Сдан в декабре 2025-го: дома заселены, дворы обжиты, магазин и садик пешком, лес в ста метрах, залив в пятистах.</p>' +
+      '<p class="lead">Уговаривать клиента не придётся — достаточно привезти. Комиссия 4,5% от цены договора, закрепление на 60 дней, персональный менеджер ведёт сделку вместе с вами.</p>' +
       '<div class="actions" style="margin-bottom:34px">' +
       '<a class="btn" href="#/flats">Открыть реестр</a>' +
       '<a class="btn btn--ghost" href="#/tour">Фотоэкскурсия</a>' +
@@ -515,7 +522,7 @@
       '<div class="card"><h4>Спорт по всем девяти кварталам</h4><p class="small" style="margin:0">Воркаут-площадки, спортивные коробки с покрытием, теннисные столы. Житель Датского ходит на любую: микрорайон общий, гуляют по всей территории.</p></div>' +
       '<div class="card"><h4>Байкал-Арена за 14 минут</h4><p class="small" style="margin:0">Больше сорока секций для детей от трёх лет, бассейн 25 метров, залы и сауна. Две поездки в неделю вместо ежедневного городского маршрута по трём адресам.</p></div>' +
       '</div>' +
-      gallery(mix([commonBy('zaliv'), commonBy('les'), commonBy('sport'), commonBy('arh')]), 'gal--wide') +
+      gallery(mix([commonBy('zaliv'), commonBy('les'), commonBy('sport'), commonBy('arh'), commonBy('priroda')]), 'gal--wide') +
       '<div class="actions"><a class="btn btn--ghost" href="#/park">Что вокруг: три пояса инфраструктуры</a>' +
       '<a class="btn btn--ghost" href="#/life">Как здесь живут круглый год</a></div>'
     ) +
@@ -1372,12 +1379,8 @@
     var L = d().life;
     var pics = mix([
       commonBy('lyudi', 8),
-      commonBy('sport', 5),
       commonBy('dvor', 4),
-      commonBy('les', 3),
-      commonBy('arh', 3),
-      commonBy('zaliv', 1),
-      commonBy('priroda', 2),
+      commonBy('arh', 2),
       commonBy('aero', 2)
     ]);
 
