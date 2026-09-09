@@ -416,6 +416,19 @@
     return (d().media.common || []).filter(function (c) { return !kind || c.k === kind; }).slice(0, n || 99);
   }
 
+  /* Раскладывает фото по кругу из нескольких групп: подряд не идут два кадра одного вида */
+  function mix(groups) {
+    var out = [], i = 0, left = true;
+    while (left) {
+      left = false;
+      for (var g = 0; g < groups.length; g++) {
+        if (groups[g][i]) { out.push(groups[g][i]); left = true; }
+      }
+      i++;
+    }
+    return out;
+  }
+
   /* ================= Главная ================= */
   function home() {
     var r = d().registry, s = d().site, t = d().agents_terms;
@@ -425,14 +438,19 @@
     var maxCom = Math.max.apply(null, r.lots.map(function (l) { return (l.cena_akciya || l.cena_bazovaya) * DK.RATE; }));
     var minPrice = Math.min.apply(null, r.lots.map(function (l) { return l.cena_akciya || l.cena_bazovaya; }));
 
-    var hero = commonBy('lyudi', 4)
-      .concat(commonBy('dvor', 2))
-      .concat(commonBy('terrasa', 2))
-      .concat(commonBy('dom', 2))
-      .concat(commonBy('uchastok', 1))
-      .concat(commonBy('priroda', 1))
-      .concat(commonBy('aero', 1))
-      .concat(commonBy('balkon', 2));
+    var hero = mix([
+      commonBy('lyudi', 4),
+      commonBy('les', 3),
+      commonBy('dvor', 3),
+      commonBy('sport', 3),
+      commonBy('terrasa', 2),
+      commonBy('arh', 3),
+      commonBy('zaliv', 1),
+      commonBy('dom', 2),
+      commonBy('balkon', 1),
+      commonBy('aero', 1),
+      commonBy('uchastok', 1)
+    ]).slice(0, 24);
 
     var tasks = [
       ['Найти квартиру под клиента', 'Генплан, живой реестр, фильтры по спальням, террасе и участку. Фото есть почти по каждому лоту — отправляйте клиенту прямо отсюда.', '#/flats', 'Открыть реестр'],
@@ -484,6 +502,22 @@
       '<div class="actions"><a class="btn btn--ghost" href="#/life">Год в квартале и истории соседей</a>' +
       '<a class="btn btn--ghost" href="#/about">Как это построено</a></div>',
       'section--alt'
+    ) +
+
+    sec(
+      eyebrow('Окружение') +
+      '<h2>Лес в ста метрах, залив — в пятистах</h2>' +
+      '<p class="lead">На показе выведите клиента за ворота. Сосны начинаются сразу за домами, до берега залива Щучьего идти минут семь. Рыбалка на закате, сап, лыжня зимой — здесь это вечер после работы, а не вылазка на выходные, к которой полдня собираешься.</p>' +
+      '<p class="lead">Городской покупатель редко проговаривает это вслух, но смотрит загород именно за этим. Дом на участке даёт ему землю и забирает вечера на её обслуживание. Здесь за территорию отвечает управляющая компания, а вечер остаётся клиенту.</p>' +
+      '<div class="grid g4">' +
+      '<div class="card"><h4>Залив Щучий</h4><p class="small" style="margin:0">Пятьсот метров до берега. Летом рыбалка, сап и купание, зимой лёд и лыжня. По соседству на заливе работает яхт-клуб — адрес уточняйте в отделе продаж перед показом.</p></div>' +
+      '<div class="card"><h4>Сосновый лес</h4><p class="small" style="margin:0">Начинается в ста метрах от квартала. Пробежка, велосипед, грибы — маршрут стартует от подъезда. Зимой по лесу идёт лыжня, а в микрорайоне работает лыжная мастерская.</p></div>' +
+      '<div class="card"><h4>Спорт по всем девяти кварталам</h4><p class="small" style="margin:0">Воркаут-площадки, спортивные коробки с покрытием, теннисные столы. Житель Датского ходит на любую: микрорайон общий, гуляют по всей территории.</p></div>' +
+      '<div class="card"><h4>Байкал-Арена за 14 минут</h4><p class="small" style="margin:0">Больше сорока секций для детей от трёх лет, бассейн 25 метров, залы и сауна. Две поездки в неделю вместо ежедневного городского маршрута по трём адресам.</p></div>' +
+      '</div>' +
+      gallery(mix([commonBy('zaliv'), commonBy('les'), commonBy('sport'), commonBy('arh')]), 'gal--wide') +
+      '<div class="actions"><a class="btn btn--ghost" href="#/park">Что вокруг: три пояса инфраструктуры</a>' +
+      '<a class="btn btn--ghost" href="#/life">Как здесь живут круглый год</a></div>'
     ) +
 
     (function () {
@@ -882,7 +916,7 @@
     sec(
       '<h2>Что вокруг квартала</h2>' +
       '<p class="lead">Лес в ста метрах, залив Щучий примерно в пятистах, восемь соседних кварталов со своей инфраструктурой. Полный разбор по трём поясам, замеры 2ГИС и школы — на отдельной странице.</p>' +
-      gallery(commonBy('priroda').concat(commonBy('aero', 1)).concat(commonBy('dvor', 2)), 'gal--wide') +
+      gallery(mix([commonBy('les'), commonBy('zaliv'), commonBy('priroda'), commonBy('sport', 2), commonBy('aero', 1)]), 'gal--wide') +
       '<div class="actions"><a class="btn btn--ghost" href="#/park">Три пояса инфраструктуры</a>' +
       '<a class="btn btn--ghost" href="#/life">Образ жизни и соседи</a></div>',
       'section--alt'
@@ -900,6 +934,7 @@
     );
   }
   DK.commonBy = commonBy;
+  DK.mix = mix;
 
   /* ================= Условия и деньги ================= */
   function terms(r) {
@@ -1172,7 +1207,7 @@
       '<p class="eyebrow"><a href="#/client">Клиенту</a> · среда</p>' +
       '<h1>Что вокруг квартала</h1>' +
       '<p class="lead">Датский — девятый квартал микрорайона. Клиент покупает не только квартиру: лес в ста метрах, залив Щучий примерно в пятистах, восемь соседних кварталов, по которым гуляют так же свободно, как по своему двору.</p>' +
-      gallery(DK.commonBy('priroda').concat(DK.commonBy('aero')).concat(DK.commonBy('dvor')), 'gal--wide')
+      gallery(DK.mix([DK.commonBy('les'), DK.commonBy('zaliv'), DK.commonBy('sport'), DK.commonBy('priroda'), DK.commonBy('arh'), DK.commonBy('aero')]), 'gal--wide')
     ) +
     sec(
       '<h2>Три пояса инфраструктуры</h2>' +
@@ -1335,7 +1370,16 @@
 
   function life() {
     var L = d().life;
-    var pics = commonBy('lyudi', 8).concat(commonBy('dvor', 4)).concat(commonBy('priroda', 2)).concat(commonBy('zima', 2)).concat(commonBy('aero', 2));
+    var pics = mix([
+      commonBy('lyudi', 8),
+      commonBy('sport', 5),
+      commonBy('dvor', 4),
+      commonBy('les', 3),
+      commonBy('arh', 3),
+      commonBy('zaliv', 1),
+      commonBy('priroda', 2),
+      commonBy('aero', 2)
+    ]);
 
     return sec(
       eyebrow('То, что нельзя скопировать') +
@@ -1354,6 +1398,17 @@
           '<p class="small">' + esc(m.d) + '</p>' +
           tgLinks(m.posts, 'смотреть') + '</div>';
       }).join('') + '</div>',
+      'section--alt'
+    ) +
+
+    sec(
+      '<h2>' + esc(L.priroda.title) + '</h2>' +
+      '<p class="lead">' + esc(L.priroda.lead) + '</p>' +
+      gallery(mix([commonBy('zaliv'), commonBy('les'), commonBy('sport'), commonBy('arh')]), 'gal--wide') +
+      '<div class="grid g3">' + L.priroda.punkty.map(function (p) {
+        return '<div class="card"><h4>' + esc(p.t) + '</h4><p class="small" style="margin:0">' + esc(p.d) + '</p></div>';
+      }).join('') + '</div>' +
+      '<blockquote style="margin-top:22px">' + esc(L.priroda.vyvod) + '</blockquote>',
       'section--alt'
     ) +
 
@@ -1526,7 +1581,7 @@
       '<h2>Квартал и двор</h2>' +
       '<p class="lead">' + esc(P.kvartal.lead) + '</p>' +
       tbl(P.kvartal.rows) +
-      gallery(commonBy('dvor', 4).concat(commonBy('aero', 2)), 'gal--wide'),
+      gallery(mix([commonBy('arh'), commonBy('dvor', 4), commonBy('les'), commonBy('aero', 2)]), 'gal--wide'),
       'section--alt'
     ) +
     sec(

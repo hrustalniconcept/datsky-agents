@@ -61,6 +61,21 @@ main { min-height: 60vh; padding-bottom: 80px; }
 .section--dark .eyebrow { color: #B9A3E0; }
 .section--dark a { color: #C3AEE8; }
 .section--dark .card { background: rgba(255,255,255,.06); border-color: rgba(255,255,255,.14); }
+.section--dark blockquote { background: rgba(255,255,255,.07); border-left-color: #C3AEE8; color: #fff; }
+.section--dark .note { background: rgba(255,255,255,.07); border-color: rgba(255,255,255,.16); border-left-color: #C3AEE8; }
+.section--dark .note p { color: rgba(255,255,255,.75); }
+.section--dark .note__t { color: #fff; }
+.section--dark .pill { border-color: rgba(255,255,255,.28); color: rgba(255,255,255,.8); }
+.section--dark .badge--bron { background: rgba(255,255,255,.14); color: rgba(255,255,255,.86); }
+.section--dark table.tbl { background: transparent; color: #fff; }
+.section--dark table.tbl thead th { background: rgba(255,255,255,.08); color: rgba(255,255,255,.75); }
+.section--dark table.tbl th, .section--dark table.tbl td { border-bottom-color: rgba(255,255,255,.14); }
+.section--dark table.tbl tbody tr:hover { background: rgba(255,255,255,.05); }
+.section--dark .tbl-scroll { border-color: rgba(255,255,255,.16); }
+.section--dark .list-a li::before { color: #C3AEE8; }
+.section--dark .fld > label, .section--dark .consent { color: rgba(255,255,255,.72); }
+.section--dark .form__ok { background: rgba(255,255,255,.07); border-color: #C3AEE8; }
+.section--dark .payload { background: rgba(0,0,0,.25); border-color: rgba(255,255,255,.16); color: rgba(255,255,255,.85); }
 
 /* ---------- Шапка ---------- */
 .hdr { position: sticky; top: 0; z-index: 40; background: rgba(255,255,255,.96); backdrop-filter: blur(8px); border-bottom: 1px solid var(--c-line); }
@@ -276,7 +291,7 @@ table.tbl td.n, table.tbl th.n { text-align: right; font-variant-numeric: tabula
 .article h2 { margin-top: 1.7em; }
 .article ul { padding-left: 1.15em; margin: 0 0 1.3em; }
 .article li { margin-bottom: .45em; }
-.article blockquote, blockquote { margin: 0 0 1.3em; padding: 16px 20px; border-left: 3px solid var(--c-brand); background: var(--c-bg-2); border-radius: 0 6px 6px 0; font-size: 1.05rem; }
+.article blockquote, blockquote { margin: 0 0 1.3em; padding: 16px 20px; overflow-wrap: break-word; border-left: 3px solid var(--c-brand); background: var(--c-bg-2); border-radius: 0 6px 6px 0; font-size: 1.05rem; }
 .list-a { list-style: none; padding: 0; margin: 0 0 1.3em; }
 .list-a li { padding-left: 24px; position: relative; margin-bottom: .55em; }
 .list-a li::before { content: "→"; position: absolute; left: 0; color: var(--c-brand); font-weight: 600; }
