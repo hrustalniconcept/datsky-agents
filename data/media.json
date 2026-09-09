@@ -5,336 +5,336 @@
   {
    "s": "assets/img/common/zhiteli-sap.jpg",
    "th": "assets/img/common/zhiteli-sap-t.jpg",
-   "t": "Жители едут на залив с сапом. Вода примерно в пятистах метрах",
+   "t": "Сап после работы: до воды пятьсот метров, собираться на выходные не нужно",
    "k": "lyudi",
    "real": true
   },
   {
    "s": "assets/img/common/zhiteli-zakat.jpg",
    "th": "assets/img/common/zhiteli-zakat-t.jpg",
-   "t": "Семья на берегу залива. Вечер буднего дня",
+   "t": "Выходные начинаются в пяти минутах от дома",
    "k": "lyudi",
    "real": true
   },
   {
    "s": "assets/img/common/deti-samokaty.jpg",
    "th": "assets/img/common/deti-samokaty-t.jpg",
-   "t": "Дети катаются на самокатах по улице квартала",
+   "t": "Сквозного автомобильного движения нет — дети катаются по кварталу сами",
    "k": "lyudi",
    "real": true
   },
   {
    "s": "assets/img/common/deti-begut.jpg",
    "th": "assets/img/common/deti-begut-t.jpg",
-   "t": "Дети бегут по улице между домами",
+   "t": "Двор, где детей зовут домой, а не ищут по городу",
    "k": "lyudi",
    "real": true
   },
   {
    "s": "assets/img/common/semya-troe.jpg",
    "th": "assets/img/common/semya-troe-t.jpg",
-   "t": "Семья с тремя детьми у своего дома",
+   "t": "Многодетным хватает метража: форматы до 92 метров с четырьмя спальнями",
    "k": "lyudi",
    "real": true
   },
   {
    "s": "assets/img/common/mama-docheri.jpg",
    "th": "assets/img/common/mama-docheri-t.jpg",
-   "t": "Мама с дочками на прогулке по кварталу",
+   "t": "Прогулка не заканчивается своим двором: кварталы соединены аллеями",
    "k": "lyudi",
    "real": true
   },
   {
    "s": "assets/img/common/semya-gazon.jpg",
    "th": "assets/img/common/semya-gazon-t.jpg",
-   "t": "Семья на своём газоне у дома",
+   "t": "У квартир первых этажей закреплённый придомовый участок: газон под окнами ваш",
    "k": "uchastok",
    "real": true
   },
   {
    "s": "assets/img/common/roditeli-deti.jpg",
    "th": "assets/img/common/roditeli-deti-t.jpg",
-   "t": "Родители с детьми у входа в дом",
+   "t": "Шесть или двадцать четыре квартиры на дом, а не триста: соседей знают в лицо",
    "k": "lyudi",
    "real": true
   },
   {
    "s": "assets/img/common/deti-igra.jpg",
    "th": "assets/img/common/deti-igra-t.jpg",
-   "t": "Дети играют во дворе",
+   "t": "Компания для ребёнка находится за один вечер",
    "k": "lyudi",
    "real": true
   },
   {
    "s": "assets/img/common/lobbi.jpg",
    "th": "assets/img/common/lobbi-t.jpg",
-   "t": "Входная группа: лобби с зеркалами и зоной ожидания",
+   "t": "Лобби с зоной ожидания: гостя есть где встретить, курьеру есть где подождать",
    "k": "dom",
    "real": true
   },
   {
    "s": "assets/img/common/lift.jpg",
    "th": "assets/img/common/lift-t.jpg",
-   "t": "Лифт в многоквартирном доме",
+   "t": "Лифт в каждом многоквартирном доме — с покупками на третий этаж без лестницы",
    "k": "dom",
    "real": true
   },
   {
    "s": "assets/img/common/zima-dvor.jpg",
    "th": "assets/img/common/zima-dvor-t.jpg",
-   "t": "Зимний двор: детский комплекс и освещение",
+   "t": "Зимой двор чистят и подсвечивают — гулять можно и в январе",
    "k": "zima",
    "real": true
   },
   {
    "s": "assets/img/common/zima-kvartal.jpg",
    "th": "assets/img/common/zima-kvartal-t.jpg",
-   "t": "Квартал зимой: дворы чистят, дорожки открыты",
+   "t": "Снег во дворах и на проездах убирает управляющая компания, а не собственник",
    "k": "zima",
    "real": true
   },
   {
    "s": "assets/img/common/terrasa-zakat.jpg",
    "th": "assets/img/common/terrasa-zakat-t.jpg",
-   "t": "Терраса третьего этажа: обеденный стол и мягкая зона помещаются одновременно",
+   "t": "Гостей принимают здесь: обеденный стол и мягкая зона встают на террасе одновременно",
    "k": "terrasa",
    "real": true
   },
   {
    "s": "assets/img/common/terrasa-uzhin.jpg",
    "th": "assets/img/common/terrasa-uzhin-t.jpg",
-   "t": "Терраса от 12 м² — по площади это отдельная комната",
+   "t": "Плюс комната под открытым небом: терраса от 12 метров, в договоре с коэффициентом 0,3",
    "k": "terrasa",
    "real": true
   },
   {
    "s": "assets/img/common/terrasa-vecher.jpg",
    "th": "assets/img/common/terrasa-vecher-t.jpg",
-   "t": "Террасы выходят во двор, а не на проезжую часть",
+   "t": "Террасы выходят во двор, а не на проезд — вечером слышно только соседей",
    "k": "terrasa",
    "real": true
   },
   {
    "s": "assets/img/common/terrasa-kreslo.jpg",
    "th": "assets/img/common/terrasa-kreslo-t.jpg",
-   "t": "Часть террас закрыта от соседей глухим экраном",
+   "t": "От соседей закрывает глухой экран: на террасе можно сидеть в халате",
    "k": "terrasa",
    "real": true
   },
   {
    "s": "assets/img/common/terrasa-uyut.jpg",
    "th": "assets/img/common/terrasa-uyut-t.jpg",
-   "t": "Так терраса выглядит через год после заселения",
+   "t": "Так террасу обживают за первый год — клиенту проще представить свою",
    "k": "terrasa",
    "real": true
   },
   {
    "s": "assets/img/common/balkon-vid.jpg",
    "th": "assets/img/common/balkon-vid-t.jpg",
-   "t": "Балкон в квартире второго этажа, около 9 м²",
+   "t": "На втором этаже вместо террасы балкон около 9 метров: место, куда выходят с кофе",
    "k": "balkon",
    "real": true
   },
   {
    "s": "assets/img/common/balkon-cvety.jpg",
    "th": "assets/img/common/balkon-cvety-t.jpg",
-   "t": "Балконы застеклены не у всех лотов — сверяйте по карточке квартиры",
+   "t": "Балкон под цветы и завтрак. Остекление есть не у всех лотов — проверьте карточку",
    "k": "balkon",
    "real": true
   },
   {
    "s": "assets/img/common/aero-zakat.jpg",
    "th": "assets/img/common/aero-zakat-t.jpg",
-   "t": "Датский квартал с высоты, на горизонте — залив",
+   "t": "Лес и вода начинаются сразу за домами: клиент видит это с первой минуты показа",
    "k": "aero",
    "real": true
   },
   {
    "s": "assets/img/common/aero-zaliv.jpg",
    "th": "assets/img/common/aero-zaliv-t.jpg",
-   "t": "До залива Щучий примерно 500 метров, до леса — 100",
+   "t": "До залива около 500 метров, до леса 100 — проверяется навигатором прямо на показе",
    "k": "aero",
    "real": true
   },
   {
    "s": "assets/img/common/dupleksy-ryad.jpg",
    "th": "assets/img/common/dupleksy-ryad-t.jpg",
-   "t": "Дуплекс: три этажа, шесть квартир, вход через подъезд",
+   "t": "Шесть квартир на дом: тихий подъезд и соседи, которых знаешь в лицо",
    "k": "dom",
    "real": true
   },
   {
    "s": "assets/img/common/dupleks-fasad.jpg",
    "th": "assets/img/common/dupleks-fasad-t.jpg",
-   "t": "МКД на 24 квартиры: лифт, колясочная, центральный вход",
+   "t": "В МКД лифт и колясочная: с коляской и велосипедом не надо на третий этаж пешком",
    "k": "dom",
    "real": true
   },
   {
    "s": "assets/img/common/balkony-fasad.jpg",
    "th": "assets/img/common/balkony-fasad-t.jpg",
-   "t": "Дворовый фасад: у каждой квартиры балкон или терраса",
+   "t": "Балкон или терраса — у каждой квартиры, без исключений",
    "k": "dom",
    "real": true
   },
   {
    "s": "assets/img/common/vhod-kirpich.jpg",
    "th": "assets/img/common/vhod-kirpich-t.jpg",
-   "t": "Фасад облицован керамическим кирпичом ручной формовки",
+   "t": "Кирпич ручной формовки: фасад не потребует ремонта через пять лет",
    "k": "dom",
    "real": true
   },
   {
    "s": "assets/img/common/podezd.jpg",
    "th": "assets/img/common/podezd-t.jpg",
-   "t": "Вход в подъезд. Внутри — места хранения для колясок и велосипедов",
+   "t": "Места хранения в подъезде: коляска и велосипеды живут не в прихожей",
    "k": "dom",
    "real": true
   },
   {
    "s": "assets/img/common/ulica.jpg",
    "th": "assets/img/common/ulica-t.jpg",
-   "t": "Улица между домами: ширина проездов 7,5 и 9,5 метра",
+   "t": "Проезды 7,5 и 9,5 метра — со встречной разъезжаются, не сдавая назад",
    "k": "dom",
    "real": true
   },
   {
    "s": "assets/img/common/fasad-mkd.jpg",
    "th": "assets/img/common/fasad-mkd-t.jpg",
-   "t": "Наружные стены трёхслойные, 550 мм, облицовка кирпичом",
+   "t": "Между квартирами 380 мм кирпича: соседа не слышно. В панельном доме 140–180",
    "k": "dom",
    "real": true
   },
   {
    "s": "assets/img/common/dvor-park.jpg",
    "th": "assets/img/common/dvor-park-t.jpg",
-   "t": "Двор без машин: парковки вынесены по периметру квартала",
+   "t": "Ребёнка отпускают гулять одного: парковки вынесены за пределы двора",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/dvor-deti.jpg",
    "th": "assets/img/common/dvor-deti-t.jpg",
-   "t": "Детская площадка во дворе Датского квартала",
+   "t": "Площадка под окнами уже работает, а не «построим во вторую очередь»",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/kacheli.jpg",
    "th": "assets/img/common/kacheli-t.jpg",
-   "t": "Качели-гнездо во дворе",
+   "t": "Двор рассчитан на разные возрасты: от песочницы до верёвочного комплекса",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/pergola.jpg",
    "th": "assets/img/common/pergola-t.jpg",
-   "t": "Пергола и зона отдыха во дворе",
+   "t": "Пергола и зона отдыха — место, где соседи знакомятся без повода",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/dorozhki.jpg",
    "th": "assets/img/common/dorozhki-t.jpg",
-   "t": "Пешеходные дорожки и газоны обслуживает управляющая компания",
+   "t": "Дорожки и газоны обслуживает управляющая компания: субботы остаются клиенту",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/sport.jpg",
    "th": "assets/img/common/sport-t.jpg",
-   "t": "Теннисный стол и воркаут во дворе",
+   "t": "Спорт во дворе: заниматься можно, не оплачивая абонемент и не садясь в машину",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/kreslo.jpg",
    "th": "assets/img/common/kreslo-t.jpg",
-   "t": "Кресло-качели в зоне отдыха",
+   "t": "Двор сделан для взрослых тоже, а не только для детской площадки",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/pergola-dvor.jpg",
    "th": "assets/img/common/pergola-dvor-t.jpg",
-   "t": "Двор спроектирован как парк: зоны отдыха, а не только проезды",
+   "t": "Двор спроектирован как парк: есть где сидеть, а не только где пройти",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/leto-vo-dvore.jpg",
    "th": "assets/img/common/leto-vo-dvore-t.jpg",
-   "t": "Лето во дворе Хрустального парка",
+   "t": "Лето ребёнок проводит на улице, а не у окна в городской квартире",
    "k": "lyudi",
    "real": true
   },
   {
    "s": "assets/img/common/deti-veliki.jpg",
    "th": "assets/img/common/deti-veliki-t.jpg",
-   "t": "Дети ездят по кварталу сами: сквозного автомобильного движения нет",
+   "t": "Ребёнка отпускают одного — родителям не нужно идти следом",
    "k": "lyudi",
    "real": true
   },
   {
    "s": "assets/img/common/alleya-deti.jpg",
    "th": "assets/img/common/alleya-deti-t.jpg",
-   "t": "Пешеходная аллея между кварталами микрорайона",
+   "t": "Пешеходные аллеи между кварталами: до соседнего двора без единого перекрёстка",
    "k": "lyudi",
    "real": true
   },
   {
    "s": "assets/img/common/workout.jpg",
    "th": "assets/img/common/workout-t.jpg",
-   "t": "Спортивная площадка в соседнем квартале, в пешей доступности",
+   "t": "Взрослому есть где заниматься: площадка в двух минутах от подъезда",
    "k": "lyudi",
    "real": true
   },
   {
    "s": "assets/img/common/samokat.jpg",
    "th": "assets/img/common/samokat-t.jpg",
-   "t": "Улицы микрорайона: тротуары отделены от проездов",
+   "t": "Тротуары отделены от проездов — ребёнок едет по своей полосе",
    "k": "lyudi",
    "real": true
   },
   {
    "s": "assets/img/common/gortenzii.jpg",
    "th": "assets/img/common/gortenzii-t.jpg",
-   "t": "Озеленение занимает больше половины территории микрорайона",
+   "t": "Озеленение больше половины территории — вид из окна не в парковку",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/ploshchadka.jpg",
    "th": "assets/img/common/ploshchadka-t.jpg",
-   "t": "Игровая зона в соседнем квартале: гуляют по всему микрорайону",
+   "t": "Гуляют по всему микрорайону: девять дворов вместо одного",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/besedka.jpg",
    "th": "assets/img/common/besedka-t.jpg",
-   "t": "Беседка в соседнем квартале Хрустального парка",
+   "t": "Беседку не нужно бронировать: день рождения можно провести во дворе",
    "k": "dvor",
    "real": true
   },
   {
    "s": "assets/img/common/sapy.jpg",
    "th": "assets/img/common/sapy-t.jpg",
-   "t": "Залив Щучий примерно в 500 метрах от квартала",
+   "t": "Залив в пятистах метрах: рыбалка и сап без сборов на выходные",
    "k": "priroda",
    "real": true
   },
   {
    "s": "assets/img/common/sap-zakat.jpg",
    "th": "assets/img/common/sap-zakat-t.jpg",
-   "t": "Вечер на заливе. Дорога от дома занимает около десяти минут пешком",
+   "t": "Вечер на воде вместо вечера в пробке",
    "k": "priroda",
    "real": true
   },
   {
    "s": "assets/img/common/vis-terrasa.jpg",
    "th": "assets/img/common/vis-terrasa-t.jpg",
-   "t": "Визуализация: как может выглядеть обустроенная терраса",
+   "t": "Как терраса выглядит обустроенной — визуализация для клиента, который не представляет",
    "k": "terrasa",
    "real": false,
    "place": "визуализация"
@@ -342,7 +342,7 @@
   {
    "s": "assets/img/common/vis-uchastok.jpg",
    "th": "assets/img/common/vis-uchastok-t.jpg",
-   "t": "Визуализация: закреплённый придомовый участок у квартиры первого этажа",
+   "t": "Своя земля без забот частного дома: закреплённый участок. Визуализация",
    "k": "uchastok",
    "real": false,
    "place": "визуализация"
@@ -350,7 +350,7 @@
   {
    "s": "assets/img/common/vis-terrasy.jpg",
    "th": "assets/img/common/vis-terrasy-t.jpg",
-   "t": "Визуализация: террасы при квартирах верхних этажей",
+   "t": "Террасы верхних этажей: у каждой квартиры своё место под открытым небом. Визуализация",
    "k": "terrasa",
    "real": false,
    "place": "визуализация"
@@ -358,7 +358,7 @@
   {
    "s": "assets/img/common/vis-uchastki.jpg",
    "th": "assets/img/common/vis-uchastki-t.jpg",
-   "t": "Визуализация: участки у квартир первых этажей",
+   "t": "Участки первых этажей — выход прямо из квартиры. Визуализация",
    "k": "uchastok",
    "real": false,
    "place": "визуализация"
@@ -3265,14 +3265,14 @@
   {
    "s": "assets/img/common/aero-zakat.jpg",
    "th": "assets/img/common/aero-zakat-t.jpg",
-   "t": "Датский квартал с высоты, на горизонте — залив",
+   "t": "Лес и вода начинаются сразу за домами: клиент видит это с первой минуты показа",
    "k": "aero",
    "real": true
   },
   {
    "s": "assets/img/common/aero-zaliv.jpg",
    "th": "assets/img/common/aero-zaliv-t.jpg",
-   "t": "До залива Щучий примерно 500 метров, до леса — 100",
+   "t": "До залива около 500 метров, до леса 100 — проверяется навигатором прямо на показе",
    "k": "aero",
    "real": true
   }
