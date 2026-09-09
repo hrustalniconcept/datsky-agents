@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Датский квартал — партнёрский сайт для риелторов</title>
+<meta name="description" content="Рабочий инструмент агента: актуальный реестр 40 лотов, интерактивный генплан, планировки, условия 4,5%, расчёты и материалы для объявлений.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#FFFFFF">
+<meta property="og:title" content="Датский квартал — партнёрский сайт для риелторов">
+<meta property="og:description" content="Реестр, генплан, планировки, условия и материалы — всё для работы с клиентом в одном месте.">
+<meta property="og:type" content="website">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%2352358B'/%3E%3Ctext x='16' y='23' font-family='Georgia,serif' font-size='19' fill='%23F5F0EA' text-anchor='middle'%3E%D0%94%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&subset=latin,cyrillic&display=swap">
+<link rel="stylesheet" href="assets/css/app.css?v=21">
+</head>
+<body>
+<a class="skip" href="#app">К содержанию</a>
+
+<header class="hdr">
+  <div class="wrap hdr__in">
+    <a class="logo" href="#/">
+      <img class="logo__img" src="assets/img/logo.png" alt="Хрустальный парк" width="121" height="31">
+      <span class="logo__t"><b>Датский квартал</b><span>партнёрам</span></span>
+    </a>
+    <nav class="nav" id="nav" aria-label="Основная навигация"></nav>
+    <a class="btn btn--sm hdr__cta" href="#/terms?form=zakreplenie">Закрепить клиента</a>
+    <button class="burger" id="burger" aria-label="Меню" aria-expanded="false"><span></span></button>
+  </div>
+  <div class="drawer" id="drawer"><div class="wrap"></div></div>
+</header>
+
+<main id="app"><div class="loading">Загружаем данные…</div></main>
+
+<div class="sticky-cta" id="stickyCta">
+  <p>Реестр от <span data-obnovleno>—</span>. Базу проверяем в день обращения.</p>
+  <a class="btn btn--sm" href="#/terms?form=zakreplenie">Закрепить клиента</a>
+</div>
+
+<footer class="ftr">
+  <div class="wrap">
+    <div class="ftr__grid">
+      <div>
+        <img src="assets/img/logo-light.png" alt="Хрустальный парк" width="140" style="margin-bottom:16px">
+        <h4>Датский квартал</h4>
+        <p>Рабочий кабинет партнёра. Датский — девятый и последний квартал «Хрустального парка» на Байкальском тракте. Введён в декабре 2025 года, ключи выдаём после сделки.</p>
+        <p>Отдел продаж: <a href="tel:+73952199841">8 (3952) 199 841</a><br>
+        Партнёрам: <a href="mailto:marketing@hrustalni.ru">marketing@hrustalni.ru</a></p>
+      </div>
+      <div>
+        <h4>Разделы</h4>
+        <ul id="ftrNav"></ul>
+      </div>
+      <div>
+        <h4>Документы</h4>
+        <ul>
+          <li><a href="https://наш.дом.рф/сервисы/каталог-новостроек/застройщик/14173" target="_blank" rel="noopener">Проектная декларация</a></li>
+          <li><a href="/policy">Политика обработки ПДн</a></li>
+          <li><a href="/agree">Согласие на обработку ПДн</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="ftr__legal">
+      <p>© ООО СЗ «Хрустальный Девелопмент». Информация о ценах, площадях и планировках носит справочный характер и не является публичной офертой (ст. 437 ГК РФ). Изображения, схемы и визуализации приведены для ознакомления и могут отличаться от фактических.</p>
+      <p>Условия кредитования, включая процентные ставки, сроки и размер платежа, определяет банк индивидуально после рассмотрения заявки. Конкретные параметры ипотечных программ на страницах сайта не публикуются: они предоставляются по персональному запросу партнёра. Застройщик не оказывает банковских услуг и не является кредитной организацией.</p>
+      <p>Данные реестра актуальны на <span data-obnovleno>—</span>. Ресурс предназначен для партнёров-риелторов и не является публичным рекламным материалом.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="cookie" id="cookie">
+  <span>Сайт использует cookie и собирает обезличенные данные о посещениях. Продолжая работу, вы соглашаетесь с <a href="/policy">политикой обработки данных</a>.</span>
+  <button class="btn btn--sm" id="cookieOk">Согласен</button>
+</div>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Карточка лота">
+  <div class="modal__bg" data-close></div>
+  <div class="modal__win" id="modalWin"></div>
+</div>
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Фотография">
+  <button class="lightbox__x" data-lb-close aria-label="Закрыть">×</button>
+  <button class="lightbox__nav lightbox__nav--p" data-lb-prev aria-label="Предыдущая">‹</button>
+  <img id="lbImg" alt="">
+  <button class="lightbox__nav lightbox__nav--n" data-lb-next aria-label="Следующая">›</button>
+  <div class="lightbox__cap" id="lbCap"></div>
+</div>
+
+<!-- TODO: счётчик Яндекс.Метрики для партнёрского поддомена не заведён.
+     Основной сайт — 97996431, лендинг Датского — 96038525. Нужен отдельный номер. -->
+
+<script src="assets/js/app.js?v=9"></script>
+<script src="assets/js/views.js?v=22"></script>
+<script>DK.start();</script>
+</body>
+</html>

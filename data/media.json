@@ -1,0 +1,3203 @@
+{
+ "genplan": "assets/img/genplan.jpg",
+ "genplan_note": "Официальный генплан 13-й очереди. Дома кликабельны.",
+ "common": [
+  {
+   "s": "assets/img/common/terrasa-zakat.jpg",
+   "th": "assets/img/common/terrasa-zakat-t.jpg",
+   "t": "Терраса на закате: стол накрыт, вид открыт",
+   "k": "terrasa",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/terrasa-uzhin.jpg",
+   "th": "assets/img/common/terrasa-uzhin-t.jpg",
+   "t": "Ужин на террасе третьего этажа",
+   "k": "terrasa",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/terrasa-vecher.jpg",
+   "th": "assets/img/common/terrasa-vecher-t.jpg",
+   "t": "Вечер на террасе",
+   "k": "terrasa",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/terrasa-kreslo.jpg",
+   "th": "assets/img/common/terrasa-kreslo-t.jpg",
+   "t": "Кресло и плед: терраса как вторая комната",
+   "k": "terrasa",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/terrasa-uyut.jpg",
+   "th": "assets/img/common/terrasa-uyut-t.jpg",
+   "t": "Терраса, обжитая под себя",
+   "k": "terrasa",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/balkon-vid.jpg",
+   "th": "assets/img/common/balkon-vid-t.jpg",
+   "t": "Балкон с видом на квартал",
+   "k": "balkon",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/balkon-cvety.jpg",
+   "th": "assets/img/common/balkon-cvety-t.jpg",
+   "t": "Балкон: цветы, подушки, утренний кофе",
+   "k": "balkon",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/aero-zakat.jpg",
+   "th": "assets/img/common/aero-zakat-t.jpg",
+   "t": "Хрустальный парк и залив на закате",
+   "k": "aero",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/aero-zaliv.jpg",
+   "th": "assets/img/common/aero-zaliv-t.jpg",
+   "t": "Квартал с высоты, залив на горизонте",
+   "k": "aero",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/aero-nizko.jpg",
+   "th": "assets/img/common/aero-nizko-t.jpg",
+   "t": "Кровли и улицы в вечернем свете",
+   "k": "aero",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/dupleksy-ryad.jpg",
+   "th": "assets/img/common/dupleksy-ryad-t.jpg",
+   "t": "Ряд дуплексов",
+   "k": "dom",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/dupleks-fasad.jpg",
+   "th": "assets/img/common/dupleks-fasad-t.jpg",
+   "t": "Фасад дуплекса, центральный вход",
+   "k": "dom",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/balkony-fasad.jpg",
+   "th": "assets/img/common/balkony-fasad-t.jpg",
+   "t": "Балконы и террасы со стороны двора",
+   "k": "dom",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/vhod-kirpich.jpg",
+   "th": "assets/img/common/vhod-kirpich-t.jpg",
+   "t": "Входная группа: кирпич ручной формовки",
+   "k": "dom",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/podezd.jpg",
+   "th": "assets/img/common/podezd-t.jpg",
+   "t": "Вход в подъезд",
+   "k": "dom",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/ulica.jpg",
+   "th": "assets/img/common/ulica-t.jpg",
+   "t": "Улица между домами",
+   "k": "dom",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/fasad-mkd.jpg",
+   "th": "assets/img/common/fasad-mkd-t.jpg",
+   "t": "Фасады МКД",
+   "k": "dom",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/dvor-park.jpg",
+   "th": "assets/img/common/dvor-park-t.jpg",
+   "t": "Двор-парк без машин",
+   "k": "dvor",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/dvor-deti.jpg",
+   "th": "assets/img/common/dvor-deti-t.jpg",
+   "t": "Двор с детской площадкой",
+   "k": "dvor",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/kacheli.jpg",
+   "th": "assets/img/common/kacheli-t.jpg",
+   "t": "Качели-гнездо",
+   "k": "dvor",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/pergola.jpg",
+   "th": "assets/img/common/pergola-t.jpg",
+   "t": "Пергола",
+   "k": "dvor",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/dorozhki.jpg",
+   "th": "assets/img/common/dorozhki-t.jpg",
+   "t": "Дорожки и газон",
+   "k": "dvor",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/sport.jpg",
+   "th": "assets/img/common/sport-t.jpg",
+   "t": "Теннисный стол и воркаут",
+   "k": "dvor",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/kreslo.jpg",
+   "th": "assets/img/common/kreslo-t.jpg",
+   "t": "Кресло-качели",
+   "k": "dvor",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/pergola-dvor.jpg",
+   "th": "assets/img/common/pergola-dvor-t.jpg",
+   "t": "Пергола и дорожки во дворе",
+   "k": "dvor",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/leto-vo-dvore.jpg",
+   "th": "assets/img/common/leto-vo-dvore-t.jpg",
+   "t": "Лето во дворе",
+   "k": "lyudi",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/deti-veliki.jpg",
+   "th": "assets/img/common/deti-veliki-t.jpg",
+   "t": "Дети едут на великах сами, без взрослых",
+   "k": "lyudi",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/alleya-deti.jpg",
+   "th": "assets/img/common/alleya-deti-t.jpg",
+   "t": "Аллея между кварталами",
+   "k": "lyudi",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/workout.jpg",
+   "th": "assets/img/common/workout-t.jpg",
+   "t": "Воркаут во дворе",
+   "k": "lyudi",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/samokat.jpg",
+   "th": "assets/img/common/samokat-t.jpg",
+   "t": "Улица квартала",
+   "k": "lyudi",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/gortenzii.jpg",
+   "th": "assets/img/common/gortenzii-t.jpg",
+   "t": "Гортензии у домов",
+   "k": "dvor",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/ploshchadka.jpg",
+   "th": "assets/img/common/ploshchadka-t.jpg",
+   "t": "Двор с площадкой",
+   "k": "dvor",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/besedka.jpg",
+   "th": "assets/img/common/besedka-t.jpg",
+   "t": "Беседка во дворе",
+   "k": "dvor",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/sapy.jpg",
+   "th": "assets/img/common/sapy-t.jpg",
+   "t": "Сапы на заливе после работы",
+   "k": "priroda",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/sap-zakat.jpg",
+   "th": "assets/img/common/sap-zakat-t.jpg",
+   "t": "Закат на воде в пятистах метрах от дома",
+   "k": "priroda",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/vis-terrasa.jpg",
+   "th": "assets/img/common/vis-terrasa-t.jpg",
+   "t": "Терраса, визуализация",
+   "k": "terrasa",
+   "real": false,
+   "place": "визуализация"
+  },
+  {
+   "s": "assets/img/common/vis-uchastok.jpg",
+   "th": "assets/img/common/vis-uchastok-t.jpg",
+   "t": "Закреплённый придомовый участок, визуализация",
+   "k": "uchastok",
+   "real": false,
+   "place": "визуализация"
+  },
+  {
+   "s": "assets/img/common/vis-terrasy.jpg",
+   "th": "assets/img/common/vis-terrasy-t.jpg",
+   "t": "Террасы при квартирах, визуализация",
+   "k": "terrasa",
+   "real": false,
+   "place": "визуализация"
+  },
+  {
+   "s": "assets/img/common/vis-uchastki.jpg",
+   "th": "assets/img/common/vis-uchastki-t.jpg",
+   "t": "Участки при квартирах, визуализация",
+   "k": "uchastok",
+   "real": false,
+   "place": "визуализация"
+  }
+ ],
+ "types": {
+  "E": [
+   {
+    "s": "assets/img/lots/mkd-21/1.jpg",
+    "th": "assets/img/lots/mkd-21/1-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/2.jpg",
+    "th": "assets/img/lots/mkd-21/2-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/3.jpg",
+    "th": "assets/img/lots/mkd-21/3-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/4.jpg",
+    "th": "assets/img/lots/mkd-21/4-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/5.jpg",
+    "th": "assets/img/lots/mkd-21/5-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/6.jpg",
+    "th": "assets/img/lots/mkd-21/6-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/7.jpg",
+    "th": "assets/img/lots/mkd-21/7-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/8.jpg",
+    "th": "assets/img/lots/mkd-21/8-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/9.jpg",
+    "th": "assets/img/lots/mkd-21/9-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   }
+  ],
+  "H": [
+   {
+    "s": "assets/img/lots/mkd-13/1.jpg",
+    "th": "assets/img/lots/mkd-13/1-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-13/2.jpg",
+    "th": "assets/img/lots/mkd-13/2-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-13/3.jpg",
+    "th": "assets/img/lots/mkd-13/3-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/mkd-13/4.jpg",
+    "th": "assets/img/lots/mkd-13/4-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   },
+   {
+    "s": "assets/img/lots/mkd-13/5.jpg",
+    "th": "assets/img/lots/mkd-13/5-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-13/6.jpg",
+    "th": "assets/img/lots/mkd-13/6-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-13/7.jpg",
+    "th": "assets/img/lots/mkd-13/7-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-13/8.jpg",
+    "th": "assets/img/lots/mkd-13/8-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   }
+  ],
+  "D": [
+   {
+    "s": "assets/img/lots/mkd-19/1.jpg",
+    "th": "assets/img/lots/mkd-19/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/2.jpg",
+    "th": "assets/img/lots/mkd-19/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/3.jpg",
+    "th": "assets/img/lots/mkd-19/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/4.jpg",
+    "th": "assets/img/lots/mkd-19/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/5.jpg",
+    "th": "assets/img/lots/mkd-19/5-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/6.jpg",
+    "th": "assets/img/lots/mkd-19/6-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/7.jpg",
+    "th": "assets/img/lots/mkd-19/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/8.jpg",
+    "th": "assets/img/lots/mkd-19/8-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/9.jpg",
+    "th": "assets/img/lots/mkd-19/9-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   }
+  ],
+  "C": [
+   {
+    "s": "assets/img/lots/mkd-14/1.jpg",
+    "th": "assets/img/lots/mkd-14/1-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/2.jpg",
+    "th": "assets/img/lots/mkd-14/2-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/3.jpg",
+    "th": "assets/img/lots/mkd-14/3-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/4.jpg",
+    "th": "assets/img/lots/mkd-14/4-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/5.jpg",
+    "th": "assets/img/lots/mkd-14/5-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/6.jpg",
+    "th": "assets/img/lots/mkd-14/6-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/7.jpg",
+    "th": "assets/img/lots/mkd-14/7-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/8.jpg",
+    "th": "assets/img/lots/mkd-14/8-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   }
+  ],
+  "A": [
+   {
+    "s": "assets/img/lots/tip-A/1.jpg",
+    "th": "assets/img/lots/tip-A/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/2.jpg",
+    "th": "assets/img/lots/tip-A/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/3.jpg",
+    "th": "assets/img/lots/tip-A/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/4.jpg",
+    "th": "assets/img/lots/tip-A/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/5.jpg",
+    "th": "assets/img/lots/tip-A/5-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/6.jpg",
+    "th": "assets/img/lots/tip-A/6-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/7.jpg",
+    "th": "assets/img/lots/tip-A/7-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-A/8.jpg",
+    "th": "assets/img/lots/tip-A/8-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-A/9.jpg",
+    "th": "assets/img/lots/tip-A/9-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   }
+  ],
+  "G": [
+   {
+    "s": "assets/img/lots/tip-G/1.jpg",
+    "th": "assets/img/lots/tip-G/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/2.jpg",
+    "th": "assets/img/lots/tip-G/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/3.jpg",
+    "th": "assets/img/lots/tip-G/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/4.jpg",
+    "th": "assets/img/lots/tip-G/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/5.jpg",
+    "th": "assets/img/lots/tip-G/5-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-G/6.jpg",
+    "th": "assets/img/lots/tip-G/6-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/7.jpg",
+    "th": "assets/img/lots/tip-G/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/8.jpg",
+    "th": "assets/img/lots/tip-G/8-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/9.jpg",
+    "th": "assets/img/lots/tip-G/9-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/10.jpg",
+    "th": "assets/img/lots/tip-G/10-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/11.jpg",
+    "th": "assets/img/lots/tip-G/11-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/12.jpg",
+    "th": "assets/img/lots/tip-G/12-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/13.jpg",
+    "th": "assets/img/lots/tip-G/13-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/14.jpg",
+    "th": "assets/img/lots/tip-G/14-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/15.jpg",
+    "th": "assets/img/lots/tip-G/15-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/16.jpg",
+    "th": "assets/img/lots/tip-G/16-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/17.jpg",
+    "th": "assets/img/lots/tip-G/17-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-G/18.jpg",
+    "th": "assets/img/lots/tip-G/18-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   }
+  ],
+  "F": [
+   {
+    "s": "assets/img/lots/tip-F/1.jpg",
+    "th": "assets/img/lots/tip-F/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-F/2.jpg",
+    "th": "assets/img/lots/tip-F/2-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-F/3.jpg",
+    "th": "assets/img/lots/tip-F/3-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/4.jpg",
+    "th": "assets/img/lots/tip-F/4-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/5.jpg",
+    "th": "assets/img/lots/tip-F/5-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/6.jpg",
+    "th": "assets/img/lots/tip-F/6-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/7.jpg",
+    "th": "assets/img/lots/tip-F/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/8.jpg",
+    "th": "assets/img/lots/tip-F/8-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/tip-F/9.jpg",
+    "th": "assets/img/lots/tip-F/9-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   }
+  ],
+  "B2": [
+   {
+    "s": "assets/img/lots/tip-B2/1.jpg",
+    "th": "assets/img/lots/tip-B2/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/2.jpg",
+    "th": "assets/img/lots/tip-B2/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/3.jpg",
+    "th": "assets/img/lots/tip-B2/3-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/4.jpg",
+    "th": "assets/img/lots/tip-B2/4-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/5.jpg",
+    "th": "assets/img/lots/tip-B2/5-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/6.jpg",
+    "th": "assets/img/lots/tip-B2/6-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/7.jpg",
+    "th": "assets/img/lots/tip-B2/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/8.jpg",
+    "th": "assets/img/lots/tip-B2/8-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/9.jpg",
+    "th": "assets/img/lots/tip-B2/9-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   }
+  ],
+  "B1": [
+   {
+    "s": "assets/img/lots/tip-B1/1.jpg",
+    "th": "assets/img/lots/tip-B1/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/2.jpg",
+    "th": "assets/img/lots/tip-B1/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/3.jpg",
+    "th": "assets/img/lots/tip-B1/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/4.jpg",
+    "th": "assets/img/lots/tip-B1/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/5.jpg",
+    "th": "assets/img/lots/tip-B1/5-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/6.jpg",
+    "th": "assets/img/lots/tip-B1/6-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/7.jpg",
+    "th": "assets/img/lots/tip-B1/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/8.jpg",
+    "th": "assets/img/lots/tip-B1/8-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/9.jpg",
+    "th": "assets/img/lots/tip-B1/9-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   }
+  ]
+ },
+ "lots": {
+  "16-21": [
+   {
+    "s": "assets/img/lots/mkd-21/1.jpg",
+    "th": "assets/img/lots/mkd-21/1-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/2.jpg",
+    "th": "assets/img/lots/mkd-21/2-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/3.jpg",
+    "th": "assets/img/lots/mkd-21/3-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/4.jpg",
+    "th": "assets/img/lots/mkd-21/4-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/5.jpg",
+    "th": "assets/img/lots/mkd-21/5-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/6.jpg",
+    "th": "assets/img/lots/mkd-21/6-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/7.jpg",
+    "th": "assets/img/lots/mkd-21/7-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/8.jpg",
+    "th": "assets/img/lots/mkd-21/8-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/9.jpg",
+    "th": "assets/img/lots/mkd-21/9-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   }
+  ],
+  "3-20": [
+   {
+    "s": "assets/img/lots/mkd-20/1.jpg",
+    "th": "assets/img/lots/mkd-20/1-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/mkd-20/2.jpg",
+    "th": "assets/img/lots/mkd-20/2-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-20/3.jpg",
+    "th": "assets/img/lots/mkd-20/3-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-20/4.jpg",
+    "th": "assets/img/lots/mkd-20/4-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/mkd-20/5.jpg",
+    "th": "assets/img/lots/mkd-20/5-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   },
+   {
+    "s": "assets/img/lots/mkd-20/6.jpg",
+    "th": "assets/img/lots/mkd-20/6-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-20/7.jpg",
+    "th": "assets/img/lots/mkd-20/7-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-20/8.jpg",
+    "th": "assets/img/lots/mkd-20/8-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   }
+  ],
+  "17-24": [
+   {
+    "s": "assets/img/lots/mkd-24/1.jpg",
+    "th": "assets/img/lots/mkd-24/1-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-24/2.jpg",
+    "th": "assets/img/lots/mkd-24/2-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-24/3.jpg",
+    "th": "assets/img/lots/mkd-24/3-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/mkd-24/4.jpg",
+    "th": "assets/img/lots/mkd-24/4-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   },
+   {
+    "s": "assets/img/lots/mkd-24/5.jpg",
+    "th": "assets/img/lots/mkd-24/5-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-24/6.jpg",
+    "th": "assets/img/lots/mkd-24/6-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   }
+  ],
+  "17-17": [
+   {
+    "s": "assets/img/lots/mkd-17/1.jpg",
+    "th": "assets/img/lots/mkd-17/1-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-17/2.jpg",
+    "th": "assets/img/lots/mkd-17/2-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-17/3.jpg",
+    "th": "assets/img/lots/mkd-17/3-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/mkd-17/4.jpg",
+    "th": "assets/img/lots/mkd-17/4-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   },
+   {
+    "s": "assets/img/lots/mkd-17/5.jpg",
+    "th": "assets/img/lots/mkd-17/5-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-17/6.jpg",
+    "th": "assets/img/lots/mkd-17/6-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   }
+  ],
+  "17-16": [
+   {
+    "s": "assets/img/lots/mkd-16/1.jpg",
+    "th": "assets/img/lots/mkd-16/1-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-16/2.jpg",
+    "th": "assets/img/lots/mkd-16/2-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-16/3.jpg",
+    "th": "assets/img/lots/mkd-16/3-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/mkd-16/4.jpg",
+    "th": "assets/img/lots/mkd-16/4-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   },
+   {
+    "s": "assets/img/lots/mkd-16/5.jpg",
+    "th": "assets/img/lots/mkd-16/5-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-16/6.jpg",
+    "th": "assets/img/lots/mkd-16/6-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   }
+  ],
+  "2-21": [
+   {
+    "s": "assets/img/lots/mkd-21/1.jpg",
+    "th": "assets/img/lots/mkd-21/1-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/2.jpg",
+    "th": "assets/img/lots/mkd-21/2-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/3.jpg",
+    "th": "assets/img/lots/mkd-21/3-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/4.jpg",
+    "th": "assets/img/lots/mkd-21/4-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/5.jpg",
+    "th": "assets/img/lots/mkd-21/5-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/6.jpg",
+    "th": "assets/img/lots/mkd-21/6-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/7.jpg",
+    "th": "assets/img/lots/mkd-21/7-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/8.jpg",
+    "th": "assets/img/lots/mkd-21/8-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-21/9.jpg",
+    "th": "assets/img/lots/mkd-21/9-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   }
+  ],
+  "16-13": [
+   {
+    "s": "assets/img/lots/mkd-13/1.jpg",
+    "th": "assets/img/lots/mkd-13/1-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-13/2.jpg",
+    "th": "assets/img/lots/mkd-13/2-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-13/3.jpg",
+    "th": "assets/img/lots/mkd-13/3-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/mkd-13/4.jpg",
+    "th": "assets/img/lots/mkd-13/4-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   },
+   {
+    "s": "assets/img/lots/mkd-13/5.jpg",
+    "th": "assets/img/lots/mkd-13/5-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-13/6.jpg",
+    "th": "assets/img/lots/mkd-13/6-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-13/7.jpg",
+    "th": "assets/img/lots/mkd-13/7-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-13/8.jpg",
+    "th": "assets/img/lots/mkd-13/8-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   }
+  ],
+  "15-19": [
+   {
+    "s": "assets/img/lots/mkd-19/1.jpg",
+    "th": "assets/img/lots/mkd-19/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/2.jpg",
+    "th": "assets/img/lots/mkd-19/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/3.jpg",
+    "th": "assets/img/lots/mkd-19/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/4.jpg",
+    "th": "assets/img/lots/mkd-19/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/5.jpg",
+    "th": "assets/img/lots/mkd-19/5-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/6.jpg",
+    "th": "assets/img/lots/mkd-19/6-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/7.jpg",
+    "th": "assets/img/lots/mkd-19/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/8.jpg",
+    "th": "assets/img/lots/mkd-19/8-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/9.jpg",
+    "th": "assets/img/lots/mkd-19/9-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   }
+  ],
+  "15-22": [
+   {
+    "s": "assets/img/lots/mkd-22/1.jpg",
+    "th": "assets/img/lots/mkd-22/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/2.jpg",
+    "th": "assets/img/lots/mkd-22/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/3.jpg",
+    "th": "assets/img/lots/mkd-22/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/4.jpg",
+    "th": "assets/img/lots/mkd-22/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/5.jpg",
+    "th": "assets/img/lots/mkd-22/5-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/6.jpg",
+    "th": "assets/img/lots/mkd-22/6-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/7.jpg",
+    "th": "assets/img/lots/mkd-22/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/8.jpg",
+    "th": "assets/img/lots/mkd-22/8-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/9.jpg",
+    "th": "assets/img/lots/mkd-22/9-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   }
+  ],
+  "3-19": [
+   {
+    "s": "assets/img/lots/mkd-19/1.jpg",
+    "th": "assets/img/lots/mkd-19/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/2.jpg",
+    "th": "assets/img/lots/mkd-19/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/3.jpg",
+    "th": "assets/img/lots/mkd-19/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/4.jpg",
+    "th": "assets/img/lots/mkd-19/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/5.jpg",
+    "th": "assets/img/lots/mkd-19/5-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/6.jpg",
+    "th": "assets/img/lots/mkd-19/6-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/7.jpg",
+    "th": "assets/img/lots/mkd-19/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/8.jpg",
+    "th": "assets/img/lots/mkd-19/8-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-19/9.jpg",
+    "th": "assets/img/lots/mkd-19/9-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   }
+  ],
+  "3-14": [
+   {
+    "s": "assets/img/lots/mkd-14/1.jpg",
+    "th": "assets/img/lots/mkd-14/1-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/2.jpg",
+    "th": "assets/img/lots/mkd-14/2-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/3.jpg",
+    "th": "assets/img/lots/mkd-14/3-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/4.jpg",
+    "th": "assets/img/lots/mkd-14/4-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/5.jpg",
+    "th": "assets/img/lots/mkd-14/5-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/6.jpg",
+    "th": "assets/img/lots/mkd-14/6-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/7.jpg",
+    "th": "assets/img/lots/mkd-14/7-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/8.jpg",
+    "th": "assets/img/lots/mkd-14/8-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   }
+  ],
+  "15-11": [
+   {
+    "s": "assets/img/lots/mkd-11/1.jpg",
+    "th": "assets/img/lots/mkd-11/1-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/2.jpg",
+    "th": "assets/img/lots/mkd-11/2-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/3.jpg",
+    "th": "assets/img/lots/mkd-11/3-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/4.jpg",
+    "th": "assets/img/lots/mkd-11/4-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/5.jpg",
+    "th": "assets/img/lots/mkd-11/5-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/6.jpg",
+    "th": "assets/img/lots/mkd-11/6-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/7.jpg",
+    "th": "assets/img/lots/mkd-11/7-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/8.jpg",
+    "th": "assets/img/lots/mkd-11/8-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   }
+  ],
+  "16-14": [
+   {
+    "s": "assets/img/lots/mkd-14/1.jpg",
+    "th": "assets/img/lots/mkd-14/1-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/2.jpg",
+    "th": "assets/img/lots/mkd-14/2-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/3.jpg",
+    "th": "assets/img/lots/mkd-14/3-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/4.jpg",
+    "th": "assets/img/lots/mkd-14/4-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/5.jpg",
+    "th": "assets/img/lots/mkd-14/5-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/6.jpg",
+    "th": "assets/img/lots/mkd-14/6-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/7.jpg",
+    "th": "assets/img/lots/mkd-14/7-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/8.jpg",
+    "th": "assets/img/lots/mkd-14/8-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   }
+  ],
+  "16-11": [
+   {
+    "s": "assets/img/lots/mkd-11/1.jpg",
+    "th": "assets/img/lots/mkd-11/1-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/2.jpg",
+    "th": "assets/img/lots/mkd-11/2-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/3.jpg",
+    "th": "assets/img/lots/mkd-11/3-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/4.jpg",
+    "th": "assets/img/lots/mkd-11/4-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/5.jpg",
+    "th": "assets/img/lots/mkd-11/5-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/6.jpg",
+    "th": "assets/img/lots/mkd-11/6-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/7.jpg",
+    "th": "assets/img/lots/mkd-11/7-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/8.jpg",
+    "th": "assets/img/lots/mkd-11/8-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   }
+  ],
+  "12-5": [
+   {
+    "s": "assets/img/lots/tip-A/1.jpg",
+    "th": "assets/img/lots/tip-A/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/2.jpg",
+    "th": "assets/img/lots/tip-A/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/3.jpg",
+    "th": "assets/img/lots/tip-A/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/4.jpg",
+    "th": "assets/img/lots/tip-A/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/5.jpg",
+    "th": "assets/img/lots/tip-A/5-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/6.jpg",
+    "th": "assets/img/lots/tip-A/6-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/7.jpg",
+    "th": "assets/img/lots/tip-A/7-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-A/8.jpg",
+    "th": "assets/img/lots/tip-A/8-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-A/9.jpg",
+    "th": "assets/img/lots/tip-A/9-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   }
+  ],
+  "14-6": [
+   {
+    "s": "assets/img/lots/tip-A/1.jpg",
+    "th": "assets/img/lots/tip-A/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/2.jpg",
+    "th": "assets/img/lots/tip-A/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/3.jpg",
+    "th": "assets/img/lots/tip-A/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/4.jpg",
+    "th": "assets/img/lots/tip-A/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/5.jpg",
+    "th": "assets/img/lots/tip-A/5-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/6.jpg",
+    "th": "assets/img/lots/tip-A/6-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/7.jpg",
+    "th": "assets/img/lots/tip-A/7-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-A/8.jpg",
+    "th": "assets/img/lots/tip-A/8-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-A/9.jpg",
+    "th": "assets/img/lots/tip-A/9-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   }
+  ],
+  "13-5": [
+   {
+    "s": "assets/img/lots/tip-A/1.jpg",
+    "th": "assets/img/lots/tip-A/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/2.jpg",
+    "th": "assets/img/lots/tip-A/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/3.jpg",
+    "th": "assets/img/lots/tip-A/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/4.jpg",
+    "th": "assets/img/lots/tip-A/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/5.jpg",
+    "th": "assets/img/lots/tip-A/5-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/6.jpg",
+    "th": "assets/img/lots/tip-A/6-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/7.jpg",
+    "th": "assets/img/lots/tip-A/7-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-A/8.jpg",
+    "th": "assets/img/lots/tip-A/8-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-A/9.jpg",
+    "th": "assets/img/lots/tip-A/9-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   }
+  ],
+  "6-5": [
+   {
+    "s": "assets/img/lots/tip-A/1.jpg",
+    "th": "assets/img/lots/tip-A/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/2.jpg",
+    "th": "assets/img/lots/tip-A/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/3.jpg",
+    "th": "assets/img/lots/tip-A/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/4.jpg",
+    "th": "assets/img/lots/tip-A/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/5.jpg",
+    "th": "assets/img/lots/tip-A/5-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/6.jpg",
+    "th": "assets/img/lots/tip-A/6-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/7.jpg",
+    "th": "assets/img/lots/tip-A/7-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-A/8.jpg",
+    "th": "assets/img/lots/tip-A/8-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-A/9.jpg",
+    "th": "assets/img/lots/tip-A/9-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   }
+  ],
+  "16-22": [
+   {
+    "s": "assets/img/lots/mkd-22/1.jpg",
+    "th": "assets/img/lots/mkd-22/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/2.jpg",
+    "th": "assets/img/lots/mkd-22/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/3.jpg",
+    "th": "assets/img/lots/mkd-22/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/4.jpg",
+    "th": "assets/img/lots/mkd-22/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/5.jpg",
+    "th": "assets/img/lots/mkd-22/5-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/6.jpg",
+    "th": "assets/img/lots/mkd-22/6-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/7.jpg",
+    "th": "assets/img/lots/mkd-22/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/8.jpg",
+    "th": "assets/img/lots/mkd-22/8-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/9.jpg",
+    "th": "assets/img/lots/mkd-22/9-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   }
+  ],
+  "7-6": [
+   {
+    "s": "assets/img/lots/tip-A/1.jpg",
+    "th": "assets/img/lots/tip-A/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/2.jpg",
+    "th": "assets/img/lots/tip-A/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/3.jpg",
+    "th": "assets/img/lots/tip-A/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/4.jpg",
+    "th": "assets/img/lots/tip-A/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/5.jpg",
+    "th": "assets/img/lots/tip-A/5-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/6.jpg",
+    "th": "assets/img/lots/tip-A/6-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/7.jpg",
+    "th": "assets/img/lots/tip-A/7-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-A/8.jpg",
+    "th": "assets/img/lots/tip-A/8-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-A/9.jpg",
+    "th": "assets/img/lots/tip-A/9-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   }
+  ],
+  "3-4": [
+   {
+    "s": "assets/img/lots/mkd-4/1.jpg",
+    "th": "assets/img/lots/mkd-4/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-4/2.jpg",
+    "th": "assets/img/lots/mkd-4/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-4/3.jpg",
+    "th": "assets/img/lots/mkd-4/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-4/4.jpg",
+    "th": "assets/img/lots/mkd-4/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-4/5.jpg",
+    "th": "assets/img/lots/mkd-4/5-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-4/6.jpg",
+    "th": "assets/img/lots/mkd-4/6-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-4/7.jpg",
+    "th": "assets/img/lots/mkd-4/7-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-4/8.jpg",
+    "th": "assets/img/lots/mkd-4/8-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   }
+  ],
+  "11-5": [
+   {
+    "s": "assets/img/lots/tip-A/1.jpg",
+    "th": "assets/img/lots/tip-A/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/2.jpg",
+    "th": "assets/img/lots/tip-A/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/3.jpg",
+    "th": "assets/img/lots/tip-A/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/4.jpg",
+    "th": "assets/img/lots/tip-A/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/5.jpg",
+    "th": "assets/img/lots/tip-A/5-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/6.jpg",
+    "th": "assets/img/lots/tip-A/6-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-A/7.jpg",
+    "th": "assets/img/lots/tip-A/7-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-A/8.jpg",
+    "th": "assets/img/lots/tip-A/8-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-A/9.jpg",
+    "th": "assets/img/lots/tip-A/9-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   }
+  ],
+  "2-5": [
+   {
+    "s": "assets/img/lots/mkd-5/1.jpg",
+    "th": "assets/img/lots/mkd-5/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-5/2.jpg",
+    "th": "assets/img/lots/mkd-5/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-5/3.jpg",
+    "th": "assets/img/lots/mkd-5/3-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-5/4.jpg",
+    "th": "assets/img/lots/mkd-5/4-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-5/5.jpg",
+    "th": "assets/img/lots/mkd-5/5-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/mkd-5/6.jpg",
+    "th": "assets/img/lots/mkd-5/6-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   },
+   {
+    "s": "assets/img/lots/mkd-5/7.jpg",
+    "th": "assets/img/lots/mkd-5/7-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-5/8.jpg",
+    "th": "assets/img/lots/mkd-5/8-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   }
+  ],
+  "3-11": [
+   {
+    "s": "assets/img/lots/mkd-11/1.jpg",
+    "th": "assets/img/lots/mkd-11/1-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/2.jpg",
+    "th": "assets/img/lots/mkd-11/2-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/3.jpg",
+    "th": "assets/img/lots/mkd-11/3-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/4.jpg",
+    "th": "assets/img/lots/mkd-11/4-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/5.jpg",
+    "th": "assets/img/lots/mkd-11/5-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/6.jpg",
+    "th": "assets/img/lots/mkd-11/6-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/7.jpg",
+    "th": "assets/img/lots/mkd-11/7-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-11/8.jpg",
+    "th": "assets/img/lots/mkd-11/8-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   }
+  ],
+  "1-14": [
+   {
+    "s": "assets/img/lots/mkd-14/1.jpg",
+    "th": "assets/img/lots/mkd-14/1-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/2.jpg",
+    "th": "assets/img/lots/mkd-14/2-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/3.jpg",
+    "th": "assets/img/lots/mkd-14/3-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/4.jpg",
+    "th": "assets/img/lots/mkd-14/4-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/5.jpg",
+    "th": "assets/img/lots/mkd-14/5-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/6.jpg",
+    "th": "assets/img/lots/mkd-14/6-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/7.jpg",
+    "th": "assets/img/lots/mkd-14/7-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   },
+   {
+    "s": "assets/img/lots/mkd-14/8.jpg",
+    "th": "assets/img/lots/mkd-14/8-t.jpg",
+    "t": "Планировка",
+    "k": "plan"
+   }
+  ],
+  "17-22": [
+   {
+    "s": "assets/img/lots/mkd-22/1.jpg",
+    "th": "assets/img/lots/mkd-22/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/2.jpg",
+    "th": "assets/img/lots/mkd-22/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/3.jpg",
+    "th": "assets/img/lots/mkd-22/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/4.jpg",
+    "th": "assets/img/lots/mkd-22/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/5.jpg",
+    "th": "assets/img/lots/mkd-22/5-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/6.jpg",
+    "th": "assets/img/lots/mkd-22/6-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/7.jpg",
+    "th": "assets/img/lots/mkd-22/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/8.jpg",
+    "th": "assets/img/lots/mkd-22/8-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/mkd-22/9.jpg",
+    "th": "assets/img/lots/mkd-22/9-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   }
+  ],
+  "5-6": [
+   {
+    "s": "assets/img/lots/tip-G/1.jpg",
+    "th": "assets/img/lots/tip-G/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/2.jpg",
+    "th": "assets/img/lots/tip-G/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/3.jpg",
+    "th": "assets/img/lots/tip-G/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/4.jpg",
+    "th": "assets/img/lots/tip-G/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/5.jpg",
+    "th": "assets/img/lots/tip-G/5-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-G/6.jpg",
+    "th": "assets/img/lots/tip-G/6-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/7.jpg",
+    "th": "assets/img/lots/tip-G/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/8.jpg",
+    "th": "assets/img/lots/tip-G/8-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/9.jpg",
+    "th": "assets/img/lots/tip-G/9-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/10.jpg",
+    "th": "assets/img/lots/tip-G/10-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/11.jpg",
+    "th": "assets/img/lots/tip-G/11-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/12.jpg",
+    "th": "assets/img/lots/tip-G/12-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/13.jpg",
+    "th": "assets/img/lots/tip-G/13-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/14.jpg",
+    "th": "assets/img/lots/tip-G/14-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/15.jpg",
+    "th": "assets/img/lots/tip-G/15-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/16.jpg",
+    "th": "assets/img/lots/tip-G/16-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/17.jpg",
+    "th": "assets/img/lots/tip-G/17-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-G/18.jpg",
+    "th": "assets/img/lots/tip-G/18-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   }
+  ],
+  "6-6": [
+   {
+    "s": "assets/img/lots/tip-G/1.jpg",
+    "th": "assets/img/lots/tip-G/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/2.jpg",
+    "th": "assets/img/lots/tip-G/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/3.jpg",
+    "th": "assets/img/lots/tip-G/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/4.jpg",
+    "th": "assets/img/lots/tip-G/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/5.jpg",
+    "th": "assets/img/lots/tip-G/5-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-G/6.jpg",
+    "th": "assets/img/lots/tip-G/6-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/7.jpg",
+    "th": "assets/img/lots/tip-G/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/8.jpg",
+    "th": "assets/img/lots/tip-G/8-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/9.jpg",
+    "th": "assets/img/lots/tip-G/9-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/10.jpg",
+    "th": "assets/img/lots/tip-G/10-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/11.jpg",
+    "th": "assets/img/lots/tip-G/11-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/12.jpg",
+    "th": "assets/img/lots/tip-G/12-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/13.jpg",
+    "th": "assets/img/lots/tip-G/13-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/14.jpg",
+    "th": "assets/img/lots/tip-G/14-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/15.jpg",
+    "th": "assets/img/lots/tip-G/15-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/16.jpg",
+    "th": "assets/img/lots/tip-G/16-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/17.jpg",
+    "th": "assets/img/lots/tip-G/17-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-G/18.jpg",
+    "th": "assets/img/lots/tip-G/18-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   }
+  ],
+  "13-6": [
+   {
+    "s": "assets/img/lots/tip-G/1.jpg",
+    "th": "assets/img/lots/tip-G/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/2.jpg",
+    "th": "assets/img/lots/tip-G/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/3.jpg",
+    "th": "assets/img/lots/tip-G/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/4.jpg",
+    "th": "assets/img/lots/tip-G/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/5.jpg",
+    "th": "assets/img/lots/tip-G/5-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-G/6.jpg",
+    "th": "assets/img/lots/tip-G/6-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/7.jpg",
+    "th": "assets/img/lots/tip-G/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/8.jpg",
+    "th": "assets/img/lots/tip-G/8-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/9.jpg",
+    "th": "assets/img/lots/tip-G/9-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/10.jpg",
+    "th": "assets/img/lots/tip-G/10-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/11.jpg",
+    "th": "assets/img/lots/tip-G/11-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/12.jpg",
+    "th": "assets/img/lots/tip-G/12-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/13.jpg",
+    "th": "assets/img/lots/tip-G/13-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/14.jpg",
+    "th": "assets/img/lots/tip-G/14-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/15.jpg",
+    "th": "assets/img/lots/tip-G/15-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/16.jpg",
+    "th": "assets/img/lots/tip-G/16-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/17.jpg",
+    "th": "assets/img/lots/tip-G/17-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-G/18.jpg",
+    "th": "assets/img/lots/tip-G/18-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   }
+  ],
+  "5-3": [
+   {
+    "s": "assets/img/lots/tip-F/1.jpg",
+    "th": "assets/img/lots/tip-F/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-F/2.jpg",
+    "th": "assets/img/lots/tip-F/2-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-F/3.jpg",
+    "th": "assets/img/lots/tip-F/3-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/4.jpg",
+    "th": "assets/img/lots/tip-F/4-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/5.jpg",
+    "th": "assets/img/lots/tip-F/5-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/6.jpg",
+    "th": "assets/img/lots/tip-F/6-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/7.jpg",
+    "th": "assets/img/lots/tip-F/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/8.jpg",
+    "th": "assets/img/lots/tip-F/8-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/tip-F/9.jpg",
+    "th": "assets/img/lots/tip-F/9-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   }
+  ],
+  "13-3": [
+   {
+    "s": "assets/img/lots/tip-F/1.jpg",
+    "th": "assets/img/lots/tip-F/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-F/2.jpg",
+    "th": "assets/img/lots/tip-F/2-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-F/3.jpg",
+    "th": "assets/img/lots/tip-F/3-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/4.jpg",
+    "th": "assets/img/lots/tip-F/4-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/5.jpg",
+    "th": "assets/img/lots/tip-F/5-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/6.jpg",
+    "th": "assets/img/lots/tip-F/6-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/7.jpg",
+    "th": "assets/img/lots/tip-F/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/8.jpg",
+    "th": "assets/img/lots/tip-F/8-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/tip-F/9.jpg",
+    "th": "assets/img/lots/tip-F/9-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   }
+  ],
+  "4-4": [
+   {
+    "s": "assets/img/lots/tip-F/1.jpg",
+    "th": "assets/img/lots/tip-F/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-F/2.jpg",
+    "th": "assets/img/lots/tip-F/2-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-F/3.jpg",
+    "th": "assets/img/lots/tip-F/3-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/4.jpg",
+    "th": "assets/img/lots/tip-F/4-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/5.jpg",
+    "th": "assets/img/lots/tip-F/5-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/6.jpg",
+    "th": "assets/img/lots/tip-F/6-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/7.jpg",
+    "th": "assets/img/lots/tip-F/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/8.jpg",
+    "th": "assets/img/lots/tip-F/8-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/tip-F/9.jpg",
+    "th": "assets/img/lots/tip-F/9-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   }
+  ],
+  "14-4": [
+   {
+    "s": "assets/img/lots/tip-F/1.jpg",
+    "th": "assets/img/lots/tip-F/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-F/2.jpg",
+    "th": "assets/img/lots/tip-F/2-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-F/3.jpg",
+    "th": "assets/img/lots/tip-F/3-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/4.jpg",
+    "th": "assets/img/lots/tip-F/4-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/5.jpg",
+    "th": "assets/img/lots/tip-F/5-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/6.jpg",
+    "th": "assets/img/lots/tip-F/6-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/7.jpg",
+    "th": "assets/img/lots/tip-F/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-F/8.jpg",
+    "th": "assets/img/lots/tip-F/8-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   },
+   {
+    "s": "assets/img/lots/tip-F/9.jpg",
+    "th": "assets/img/lots/tip-F/9-t.jpg",
+    "t": "Вид на залив и кварталы",
+    "k": "view"
+   }
+  ],
+  "5-4": [
+   {
+    "s": "assets/img/lots/tip-B2/1.jpg",
+    "th": "assets/img/lots/tip-B2/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/2.jpg",
+    "th": "assets/img/lots/tip-B2/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/3.jpg",
+    "th": "assets/img/lots/tip-B2/3-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/4.jpg",
+    "th": "assets/img/lots/tip-B2/4-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/5.jpg",
+    "th": "assets/img/lots/tip-B2/5-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/6.jpg",
+    "th": "assets/img/lots/tip-B2/6-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/7.jpg",
+    "th": "assets/img/lots/tip-B2/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/8.jpg",
+    "th": "assets/img/lots/tip-B2/8-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/9.jpg",
+    "th": "assets/img/lots/tip-B2/9-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   }
+  ],
+  "4-3": [
+   {
+    "s": "assets/img/lots/tip-B1/1.jpg",
+    "th": "assets/img/lots/tip-B1/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/2.jpg",
+    "th": "assets/img/lots/tip-B1/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/3.jpg",
+    "th": "assets/img/lots/tip-B1/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/4.jpg",
+    "th": "assets/img/lots/tip-B1/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/5.jpg",
+    "th": "assets/img/lots/tip-B1/5-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/6.jpg",
+    "th": "assets/img/lots/tip-B1/6-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/7.jpg",
+    "th": "assets/img/lots/tip-B1/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/8.jpg",
+    "th": "assets/img/lots/tip-B1/8-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/9.jpg",
+    "th": "assets/img/lots/tip-B1/9-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   }
+  ],
+  "4-5": [
+   {
+    "s": "assets/img/lots/tip-G/1.jpg",
+    "th": "assets/img/lots/tip-G/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/2.jpg",
+    "th": "assets/img/lots/tip-G/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/3.jpg",
+    "th": "assets/img/lots/tip-G/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/4.jpg",
+    "th": "assets/img/lots/tip-G/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/5.jpg",
+    "th": "assets/img/lots/tip-G/5-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-G/6.jpg",
+    "th": "assets/img/lots/tip-G/6-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/7.jpg",
+    "th": "assets/img/lots/tip-G/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/8.jpg",
+    "th": "assets/img/lots/tip-G/8-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/9.jpg",
+    "th": "assets/img/lots/tip-G/9-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-G/10.jpg",
+    "th": "assets/img/lots/tip-G/10-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/11.jpg",
+    "th": "assets/img/lots/tip-G/11-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/12.jpg",
+    "th": "assets/img/lots/tip-G/12-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/13.jpg",
+    "th": "assets/img/lots/tip-G/13-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/14.jpg",
+    "th": "assets/img/lots/tip-G/14-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/15.jpg",
+    "th": "assets/img/lots/tip-G/15-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/16.jpg",
+    "th": "assets/img/lots/tip-G/16-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-G/17.jpg",
+    "th": "assets/img/lots/tip-G/17-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-G/18.jpg",
+    "th": "assets/img/lots/tip-G/18-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   }
+  ],
+  "14-3": [
+   {
+    "s": "assets/img/lots/tip-B1/1.jpg",
+    "th": "assets/img/lots/tip-B1/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/2.jpg",
+    "th": "assets/img/lots/tip-B1/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/3.jpg",
+    "th": "assets/img/lots/tip-B1/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/4.jpg",
+    "th": "assets/img/lots/tip-B1/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/5.jpg",
+    "th": "assets/img/lots/tip-B1/5-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/6.jpg",
+    "th": "assets/img/lots/tip-B1/6-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/7.jpg",
+    "th": "assets/img/lots/tip-B1/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/8.jpg",
+    "th": "assets/img/lots/tip-B1/8-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/9.jpg",
+    "th": "assets/img/lots/tip-B1/9-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   }
+  ],
+  "9-4": [
+   {
+    "s": "assets/img/lots/tip-B2/1.jpg",
+    "th": "assets/img/lots/tip-B2/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/2.jpg",
+    "th": "assets/img/lots/tip-B2/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/3.jpg",
+    "th": "assets/img/lots/tip-B2/3-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/4.jpg",
+    "th": "assets/img/lots/tip-B2/4-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/5.jpg",
+    "th": "assets/img/lots/tip-B2/5-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/6.jpg",
+    "th": "assets/img/lots/tip-B2/6-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/7.jpg",
+    "th": "assets/img/lots/tip-B2/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/8.jpg",
+    "th": "assets/img/lots/tip-B2/8-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/9.jpg",
+    "th": "assets/img/lots/tip-B2/9-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   }
+  ],
+  "6-4": [
+   {
+    "s": "assets/img/lots/tip-B2/1.jpg",
+    "th": "assets/img/lots/tip-B2/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/2.jpg",
+    "th": "assets/img/lots/tip-B2/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/3.jpg",
+    "th": "assets/img/lots/tip-B2/3-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/4.jpg",
+    "th": "assets/img/lots/tip-B2/4-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/5.jpg",
+    "th": "assets/img/lots/tip-B2/5-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/6.jpg",
+    "th": "assets/img/lots/tip-B2/6-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/7.jpg",
+    "th": "assets/img/lots/tip-B2/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/8.jpg",
+    "th": "assets/img/lots/tip-B2/8-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B2/9.jpg",
+    "th": "assets/img/lots/tip-B2/9-t.jpg",
+    "t": "Двор",
+    "k": "yard"
+   }
+  ],
+  "7-3": [
+   {
+    "s": "assets/img/lots/tip-B1/1.jpg",
+    "th": "assets/img/lots/tip-B1/1-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/2.jpg",
+    "th": "assets/img/lots/tip-B1/2-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/3.jpg",
+    "th": "assets/img/lots/tip-B1/3-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/4.jpg",
+    "th": "assets/img/lots/tip-B1/4-t.jpg",
+    "t": "Квартира",
+    "k": "photo"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/5.jpg",
+    "th": "assets/img/lots/tip-B1/5-t.jpg",
+    "t": "Терраса",
+    "k": "terrace"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/6.jpg",
+    "th": "assets/img/lots/tip-B1/6-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/7.jpg",
+    "th": "assets/img/lots/tip-B1/7-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/8.jpg",
+    "th": "assets/img/lots/tip-B1/8-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   },
+   {
+    "s": "assets/img/lots/tip-B1/9.jpg",
+    "th": "assets/img/lots/tip-B1/9-t.jpg",
+    "t": "Фасад дома",
+    "k": "facade"
+   }
+  ]
+ },
+ "logo": {
+  "dark": "assets/img/logo.png",
+  "light": "assets/img/logo-light.png",
+  "vertical": "assets/img/logo-vertical.png"
+ },
+ "aero": [
+  {
+   "s": "assets/img/common/aero-zakat.jpg",
+   "th": "assets/img/common/aero-zakat-t.jpg",
+   "t": "Хрустальный парк и залив на закате",
+   "k": "aero",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/aero-zaliv.jpg",
+   "th": "assets/img/common/aero-zaliv-t.jpg",
+   "t": "Квартал с высоты, залив на горизонте",
+   "k": "aero",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/aero-nizko.jpg",
+   "th": "assets/img/common/aero-nizko-t.jpg",
+   "t": "Кровли и улицы в вечернем свете",
+   "k": "aero",
+   "real": true
+  }
+ ]
+}
