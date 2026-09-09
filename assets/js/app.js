@@ -287,10 +287,12 @@ window.DK = (function () {
     }).join('');
     return '<form class="form" data-form="' + key + '" novalidate>' +
       '<div class="fields">' + fields + '</div>' +
+      '<input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" ' +
+      'style="position:absolute;left:-9999px;width:1px;height:1px;opacity:0">' +
       '<label class="consent"><input type="checkbox" name="consent">' +
       '<span>' + (f.reklama
-        ? 'Согласен на обработку персональных данных ООО СЗ «Хрустальный Девелопмент» в соответствии с <a href="/policy" target="_blank">политикой</a> и <a href="/agree" target="_blank">согласием</a>.'
-        : 'Я согласен на обработку персональных данных — своих и переданных мной данных клиента — в соответствии с <a href="/policy" target="_blank">политикой</a> и <a href="/agree" target="_blank">согласием</a>. Подтверждаю, что получил согласие клиента на передачу его данных застройщику.') +
+        ? 'Согласен на обработку персональных данных ООО СЗ «Хрустальный Девелопмент» в соответствии с <a href="policy/" target="_blank">политикой</a> и <a href="agree/" target="_blank">согласием</a>.'
+        : 'Я согласен на обработку персональных данных — своих и переданных мной данных клиента — в соответствии с <a href="policy/" target="_blank">политикой</a> и <a href="agree/" target="_blank">согласием</a>. Подтверждаю, что получил согласие клиента на передачу его данных застройщику.') +
       '</span></label>' +
       '<span class="fld__err" data-consent-err>Без согласия заявку принять нельзя</span>' +
       (f.reklama
@@ -349,22 +351,50 @@ window.DK = (function () {
     lines.push('— — —', 'Источник: партнёрский сайт, ' + location.href);
     var payload = lines.join('\n');
 
-    // TODO: когда появится endpoint приёма заявок, отправлять сюда.
     var hook = D.site.formy.webhook;
-    if (hook) {
-      fetch(hook, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(data) })
-        .catch(function () {});
+    var trap = form.querySelector('[name="website"]');
+    var btn = form.querySelector('button[type="submit"]');
+
+    function done(sent) {
+      form.outerHTML = successHTML(f, payload, sent);
     }
 
+    if (hook) {
+      btn.disabled = true;
+      btn.textContent = 'Отправляем…';
+      fetch(hook, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ text: payload, form: key, website: trap ? trap.value : '' })
+      }).then(function (r) { return r.ok ? r.json() : { ok: false }; })
+        .then(function (res) { done(!!(res && res.ok)); })
+        .catch(function () { done(false); });
+      return;
+    }
+    done(null);
+  }
+
+  function successHTML(f, payload, sent) {
     var mail = 'mailto:' + D.site.formy.otvetstvennyi_email +
       '?subject=' + encodeURIComponent(f.title + ' — партнёрский сайт') +
       '&body=' + encodeURIComponent(payload);
     var tg = 'https://t.me/' + D.site.formy.otvetstvennyi_telegram;
 
-    form.outerHTML =
-      '<div class="form__ok">' +
-      '<h3>Заявка собрана</h3>' +
-      '<p>Приём заявок на сервер ещё не подключён — пока отправьте её одним из способов ниже. Ответ по закреплению даём в день обращения.</p>' +
+    var head, lead;
+    if (sent === true) {
+      head = 'Заявка отправлена';
+      lead = 'Она уже в работе у отдела продаж. По закреплению отвечаем в день обращения. Копию можно сохранить себе.';
+    } else if (sent === false) {
+      head = 'Отправить не удалось';
+      lead = 'Связь с сервером не установилась. Заявка не потеряна — отправьте её любым способом ниже, текст уже готов.';
+    } else {
+      head = 'Заявка собрана';
+      lead = 'Автоматический приём заявок ещё не подключён — отправьте её одним из способов ниже. Ответ по закреплению даём в день обращения.';
+    }
+
+    return '<div class="form__ok">' +
+      '<h3>' + esc(head) + '</h3>' +
+      '<p>' + esc(lead) + '</p>' +
       '<div class="payload" id="payload">' + esc(payload) + '</div>' +
       '<div class="actions">' +
       '<button class="btn btn--sm" data-copy>Скопировать текст</button>' +
