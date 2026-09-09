@@ -3,6 +3,97 @@
  "genplan_note": "Официальный генплан 13-й очереди. Дома кликабельны.",
  "common": [
   {
+   "s": "assets/img/common/zhiteli-sap.jpg",
+   "th": "assets/img/common/zhiteli-sap-t.jpg",
+   "t": "Жители едут на залив с сапом. Вода примерно в пятистах метрах",
+   "k": "lyudi",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/zhiteli-zakat.jpg",
+   "th": "assets/img/common/zhiteli-zakat-t.jpg",
+   "t": "Семья на берегу залива. Вечер буднего дня",
+   "k": "lyudi",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/deti-samokaty.jpg",
+   "th": "assets/img/common/deti-samokaty-t.jpg",
+   "t": "Дети катаются на самокатах по улице квартала",
+   "k": "lyudi",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/deti-begut.jpg",
+   "th": "assets/img/common/deti-begut-t.jpg",
+   "t": "Дети бегут по улице между домами",
+   "k": "lyudi",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/semya-troe.jpg",
+   "th": "assets/img/common/semya-troe-t.jpg",
+   "t": "Семья с тремя детьми у своего дома",
+   "k": "lyudi",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/mama-docheri.jpg",
+   "th": "assets/img/common/mama-docheri-t.jpg",
+   "t": "Мама с дочками на прогулке по кварталу",
+   "k": "lyudi",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/semya-gazon.jpg",
+   "th": "assets/img/common/semya-gazon-t.jpg",
+   "t": "Семья на своём газоне у дома",
+   "k": "uchastok",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/roditeli-deti.jpg",
+   "th": "assets/img/common/roditeli-deti-t.jpg",
+   "t": "Родители с детьми у входа в дом",
+   "k": "lyudi",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/deti-igra.jpg",
+   "th": "assets/img/common/deti-igra-t.jpg",
+   "t": "Дети играют во дворе",
+   "k": "lyudi",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/lobbi.jpg",
+   "th": "assets/img/common/lobbi-t.jpg",
+   "t": "Входная группа: лобби с зеркалами и зоной ожидания",
+   "k": "dom",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/lift.jpg",
+   "th": "assets/img/common/lift-t.jpg",
+   "t": "Лифт в многоквартирном доме",
+   "k": "dom",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/zima-dvor.jpg",
+   "th": "assets/img/common/zima-dvor-t.jpg",
+   "t": "Зимний двор: детский комплекс и освещение",
+   "k": "zima",
+   "real": true
+  },
+  {
+   "s": "assets/img/common/zima-kvartal.jpg",
+   "th": "assets/img/common/zima-kvartal-t.jpg",
+   "t": "Квартал зимой: дворы чистят, дорожки открыты",
+   "k": "zima",
+   "real": true
+  },
+  {
    "s": "assets/img/common/terrasa-zakat.jpg",
    "th": "assets/img/common/terrasa-zakat-t.jpg",
    "t": "Терраса третьего этажа: обеденный стол и мягкая зона помещаются одновременно",
@@ -62,13 +153,6 @@
    "s": "assets/img/common/aero-zaliv.jpg",
    "th": "assets/img/common/aero-zaliv-t.jpg",
    "t": "До залива Щучий примерно 500 метров, до леса — 100",
-   "k": "aero",
-   "real": true
-  },
-  {
-   "s": "assets/img/common/aero-nizko.jpg",
-   "th": "assets/img/common/aero-nizko-t.jpg",
-   "t": "Вся застройка малоэтажная: три этажа, без башен",
    "k": "aero",
    "real": true
   },
@@ -3189,13 +3273,6 @@
    "s": "assets/img/common/aero-zaliv.jpg",
    "th": "assets/img/common/aero-zaliv-t.jpg",
    "t": "До залива Щучий примерно 500 метров, до леса — 100",
-   "k": "aero",
-   "real": true
-  },
-  {
-   "s": "assets/img/common/aero-nizko.jpg",
-   "th": "assets/img/common/aero-nizko-t.jpg",
-   "t": "Вся застройка малоэтажная: три этажа, без башен",
    "k": "aero",
    "real": true
   }
