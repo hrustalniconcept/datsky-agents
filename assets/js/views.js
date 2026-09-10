@@ -517,10 +517,6 @@
       '<a class="btn btn--ghost" href="#/tour">Фотоэкскурсия</a>' +
       '</div>' +
       gallery(hero, 'gal--wide') +
-      '<figure class="filmbox">' +
-      '<video controls preload="none" playsinline poster="assets/img/vecher/zakat-ryad.jpg" src="assets/video/hp-obshchee.mp4"></video>' +
-      '<figcaption>Фильм о «Хрустальном парке» целиком: девять кварталов, инфраструктура, люди. Отправляйте иногороднему клиенту первым сообщением — он поймёт масштаб быстрее, чем по любому описанию.</figcaption>' +
-      '</figure>' +
       '<div class="grid g4">' +
       stat(r.vsego_lotov, 'квартир в остатке') +
       stat(mln(minPrice).replace(' млн', '') + ' млн', 'самая доступная') +

@@ -68,15 +68,22 @@
     {
       "s": "assets/img/common/lobbi.jpg",
       "th": "assets/img/common/lobbi-t.jpg",
-      "t": "Лобби с зоной ожидания: гостя есть где встретить, курьеру есть где подождать",
+      "t": "Так выглядит подъезд изнутри: реечный потолок, дизайнерский свет, ёлочка на полу. Это не «место у почтовых ящиков»",
+      "k": "dom",
+      "real": true
+    },
+    {
+      "s": "assets/img/common/podezd-zerkalo.jpg",
+      "th": "assets/img/common/podezd-zerkalo-t.jpg",
+      "t": "Зеркало в полный рост и отделка на этаже — подъезд, в который не стыдно привести гостей",
       "k": "dom",
       "real": true
     },
     {
       "s": "assets/img/common/lift.jpg",
       "th": "assets/img/common/lift-t.jpg",
-      "t": "Лифт в каждом многоквартирном доме — с покупками на третий этаж без лестницы",
-      "k": "dom",
+      "t": "Перголы и навесы во дворе — тень летом и место, где можно посидеть не на скамейке",
+      "k": "dvor",
       "real": true
     },
     {
@@ -187,7 +194,7 @@
     {
       "s": "assets/img/common/podezd.jpg",
       "th": "assets/img/common/podezd-t.jpg",
-      "t": "Места хранения в подъезде: коляска и велосипеды живут не в прихожей",
+      "t": "Входная группа с номером дома и домофоном: свой вход, а не общий холл на сто квартир",
       "k": "dom",
       "real": true
     },
@@ -462,20 +469,6 @@
       "real": true
     },
     {
-      "s": "assets/img/vecher/fasad-derevo.jpg",
-      "th": "assets/img/vecher/fasad-derevo-t.jpg",
-      "t": "Вечером фасад читается по-другому: дерево, кирпич и тёплый свет вместо дневной серости",
-      "k": "vecher",
-      "real": true
-    },
-    {
-      "s": "assets/img/vecher/fasad-svet.jpg",
-      "th": "assets/img/vecher/fasad-svet-t.jpg",
-      "t": "Подсветка входных групп включается по датчику — двор не тонет в темноте",
-      "k": "vecher",
-      "real": true
-    },
-    {
       "s": "assets/img/vecher/ulica-vecher.jpg",
       "th": "assets/img/vecher/ulica-vecher-t.jpg",
       "t": "Улица квартала в девять вечера: фонари горят, машин нет, гулять можно с коляской",
@@ -490,23 +483,9 @@
       "real": true
     },
     {
-      "s": "assets/img/vecher/mkd-vhod-centr.jpg",
-      "th": "assets/img/vecher/mkd-vhod-centr-t.jpg",
-      "t": "Центральный дом на 24 квартиры с лифтом: вечером видно, что подъезд закрыт и освещён",
-      "k": "vecher",
-      "real": true
-    },
-    {
       "s": "assets/img/vecher/dupleksy-vecher.jpg",
       "th": "assets/img/vecher/dupleksy-vecher-t.jpg",
       "t": "Ряд дуплексов вечером: у каждой квартиры свой вход, общего коридора нет",
-      "k": "vecher",
-      "real": true
-    },
-    {
-      "s": "assets/img/vecher/ryad-fonari.jpg",
-      "th": "assets/img/vecher/ryad-fonari-t.jpg",
-      "t": "Освещение по всей длине улицы, а не только у въезда",
       "k": "vecher",
       "real": true
     },
