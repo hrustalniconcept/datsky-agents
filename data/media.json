@@ -460,10 +460,141 @@
       "t": "Фасад из облицовочного кирпича, а не штукатурки: через десять лет он выглядит так же",
       "k": "arh",
       "real": true
+    },
+    {
+      "s": "assets/img/vecher/fasad-derevo.jpg",
+      "th": "assets/img/vecher/fasad-derevo-t.jpg",
+      "t": "Вечером фасад читается по-другому: дерево, кирпич и тёплый свет вместо дневной серости",
+      "k": "vecher",
+      "real": true
+    },
+    {
+      "s": "assets/img/vecher/fasad-svet.jpg",
+      "th": "assets/img/vecher/fasad-svet-t.jpg",
+      "t": "Подсветка входных групп включается по датчику — двор не тонет в темноте",
+      "k": "vecher",
+      "real": true
+    },
+    {
+      "s": "assets/img/vecher/ulica-vecher.jpg",
+      "th": "assets/img/vecher/ulica-vecher-t.jpg",
+      "t": "Улица квартала в девять вечера: фонари горят, машин нет, гулять можно с коляской",
+      "k": "vecher",
+      "real": true
+    },
+    {
+      "s": "assets/img/vecher/mkd-okna.jpg",
+      "th": "assets/img/vecher/mkd-okna-t.jpg",
+      "t": "Свет в окнах — главный аргумент вечернего показа: квартал живой, а не сданный и пустой",
+      "k": "vecher",
+      "real": true
+    },
+    {
+      "s": "assets/img/vecher/mkd-vhod-centr.jpg",
+      "th": "assets/img/vecher/mkd-vhod-centr-t.jpg",
+      "t": "Центральный дом на 24 квартиры с лифтом: вечером видно, что подъезд закрыт и освещён",
+      "k": "vecher",
+      "real": true
+    },
+    {
+      "s": "assets/img/vecher/dupleksy-vecher.jpg",
+      "th": "assets/img/vecher/dupleksy-vecher-t.jpg",
+      "t": "Ряд дуплексов вечером: у каждой квартиры свой вход, общего коридора нет",
+      "k": "vecher",
+      "real": true
+    },
+    {
+      "s": "assets/img/vecher/ryad-fonari.jpg",
+      "th": "assets/img/vecher/ryad-fonari-t.jpg",
+      "t": "Освещение по всей длине улицы, а не только у въезда",
+      "k": "vecher",
+      "real": true
+    },
+    {
+      "s": "assets/img/vecher/dorozhka-vecher.jpg",
+      "th": "assets/img/vecher/dorozhka-vecher-t.jpg",
+      "t": "Пешеходные дорожки подсвечены отдельно от проездов — идти домой не по обочине",
+      "k": "vecher",
+      "real": true
+    },
+    {
+      "s": "assets/img/vecher/zakat-ryad.jpg",
+      "th": "assets/img/vecher/zakat-ryad-t.jpg",
+      "t": "Закат за кварталом: время, на которое стоит ставить показ",
+      "k": "vecher",
+      "real": true
+    },
+    {
+      "s": "assets/img/vecher/dvor-vecher.jpg",
+      "th": "assets/img/vecher/dvor-vecher-t.jpg",
+      "t": "Двор вечером: люди сидят на улице, а не расходятся по квартирам с темнотой",
+      "k": "vecher",
+      "real": true
+    },
+    {
+      "s": "assets/img/vecher/ploshchadka-vecher.jpg",
+      "th": "assets/img/vecher/ploshchadka-vecher-t.jpg",
+      "t": "Детская площадка освещена — ребёнок гуляет и после ужина",
+      "k": "vecher",
+      "real": true
+    },
+    {
+      "s": "assets/img/vecher/kacheli-vecher.jpg",
+      "th": "assets/img/vecher/kacheli-vecher-t.jpg",
+      "t": "Качели и МАФы работают вечером: двор не выключается вместе с солнцем",
+      "k": "vecher",
+      "real": true
+    },
+    {
+      "s": "assets/img/vecher/pergola-vecher.jpg",
+      "th": "assets/img/vecher/pergola-vecher-t.jpg",
+      "t": "Пергола с подсветкой — место, где соседи задерживаются после прогулки",
+      "k": "vecher",
+      "real": true
+    },
+    {
+      "s": "assets/img/vecher/alleya-vecher.jpg",
+      "th": "assets/img/vecher/alleya-vecher-t.jpg",
+      "t": "Аллея между кварталами освещена: до соседнего двора можно дойти в темноте",
+      "k": "vecher",
+      "real": true
+    },
+    {
+      "s": "assets/img/vecher/detskaya-vecher.jpg",
+      "th": "assets/img/vecher/detskaya-vecher-t.jpg",
+      "t": "Игровая зона вечером: свет мягкий, но его достаточно",
+      "k": "vecher",
+      "real": true
+    },
+    {
+      "s": "assets/img/vecher/svet-fasad.jpg",
+      "th": "assets/img/vecher/svet-fasad-t.jpg",
+      "t": "Светильники на фасадах — часть проекта, а не то, что жильцы вешают сами",
+      "k": "vecher",
+      "real": true
+    },
+    {
+      "s": "assets/img/common/galina.jpg",
+      "th": "assets/img/common/galina-t.jpg",
+      "t": "Галину Яковлевну, 1934 года рождения, поздравляют всем кварталом. В городском доме её бы не знали по имени",
+      "k": "lyudi",
+      "real": true
     }
   ],
   "types": {
     "E": [
+      {
+        "s": "assets/img/plans/2-21-1.jpg",
+        "th": "assets/img/plans/2-21-1-t.jpg",
+        "t": "Планировка: 39,07 м² приведённой, кухня-гостиная 14,25 м², терраса 9,90 м²",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/2-21-2.jpg",
+        "th": "assets/img/plans/2-21-2-t.jpg",
+        "t": "Меблировка: кофе утром на воздухе, ужин на закате",
+        "k": "plan"
+      },
       {
         "s": "assets/img/lots/mkd-21/1.jpg",
         "th": "assets/img/lots/mkd-21/1-t.jpg",
@@ -493,30 +624,6 @@
         "th": "assets/img/lots/mkd-21/5-t.jpg",
         "t": "Вид на залив и кварталы",
         "k": "view"
-      },
-      {
-        "s": "assets/img/lots/mkd-21/6.jpg",
-        "th": "assets/img/lots/mkd-21/6-t.jpg",
-        "t": "Планировка",
-        "k": "plan"
-      },
-      {
-        "s": "assets/img/lots/mkd-21/7.jpg",
-        "th": "assets/img/lots/mkd-21/7-t.jpg",
-        "t": "Планировка",
-        "k": "plan"
-      },
-      {
-        "s": "assets/img/lots/mkd-21/8.jpg",
-        "th": "assets/img/lots/mkd-21/8-t.jpg",
-        "t": "Планировка",
-        "k": "plan"
-      },
-      {
-        "s": "assets/img/lots/mkd-21/9.jpg",
-        "th": "assets/img/lots/mkd-21/9-t.jpg",
-        "t": "Планировка",
-        "k": "plan"
       }
     ],
     "H": [
@@ -570,6 +677,60 @@
       }
     ],
     "D": [
+      {
+        "s": "assets/img/plans/16-22-1.jpg",
+        "th": "assets/img/plans/16-22-1-t.jpg",
+        "t": "Планировка: 67,41 м² приведённой, кухня-гостиная 20,61 м², терраса 12,70 м²",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/16-22-2.jpg",
+        "th": "assets/img/plans/16-22-2-t.jpg",
+        "t": "Меблировка и мансардные окна мастер-спальни",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/16-22-3.jpg",
+        "th": "assets/img/plans/16-22-3-t.jpg",
+        "t": "Кухня-гостиная 20,61 м² в интерьере",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/16-22-4.jpg",
+        "th": "assets/img/plans/16-22-4-t.jpg",
+        "t": "Мастер-спальня с гардеробной",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/16-22-5.jpg",
+        "th": "assets/img/plans/16-22-5-t.jpg",
+        "t": "Спальня под мансардным окном",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/16-22-6.jpg",
+        "th": "assets/img/plans/16-22-6-t.jpg",
+        "t": "Детская",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/16-22-7.jpg",
+        "th": "assets/img/plans/16-22-7-t.jpg",
+        "t": "Санузел: в этой квартире их два",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/16-22-8.jpg",
+        "th": "assets/img/plans/16-22-8-t.jpg",
+        "t": "Постирочная и второй санузел",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/16-22-9.jpg",
+        "th": "assets/img/plans/16-22-9-t.jpg",
+        "t": "Прихожая со встроенным шкафом",
+        "k": "plan"
+      },
       {
         "s": "assets/img/lots/mkd-19/1.jpg",
         "th": "assets/img/lots/mkd-19/1-t.jpg",
@@ -627,6 +788,18 @@
     ],
     "C": [
       {
+        "s": "assets/img/plans/16-14-1.jpg",
+        "th": "assets/img/plans/16-14-1-t.jpg",
+        "t": "Планировка: 63,38 м² приведённой, кухня-гостиная 20,31 м²",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/16-14-2.jpg",
+        "th": "assets/img/plans/16-14-2-t.jpg",
+        "t": "Меблировка: как встаёт мебель в этой планировке",
+        "k": "plan"
+      },
+      {
         "s": "assets/img/lots/mkd-14/1.jpg",
         "th": "assets/img/lots/mkd-14/1-t.jpg",
         "t": "Терраса",
@@ -655,27 +828,21 @@
         "th": "assets/img/lots/mkd-14/5-t.jpg",
         "t": "Вид на залив и кварталы",
         "k": "view"
-      },
-      {
-        "s": "assets/img/lots/mkd-14/6.jpg",
-        "th": "assets/img/lots/mkd-14/6-t.jpg",
-        "t": "Планировка",
-        "k": "plan"
-      },
-      {
-        "s": "assets/img/lots/mkd-14/7.jpg",
-        "th": "assets/img/lots/mkd-14/7-t.jpg",
-        "t": "Планировка",
-        "k": "plan"
-      },
-      {
-        "s": "assets/img/lots/mkd-14/8.jpg",
-        "th": "assets/img/lots/mkd-14/8-t.jpg",
-        "t": "Планировка",
-        "k": "plan"
       }
     ],
     "A": [
+      {
+        "s": "assets/img/plans/7-5-1.jpg",
+        "th": "assets/img/plans/7-5-1-t.jpg",
+        "t": "Планировка: 64,37 м² приведённой, кухня-гостиная 18,72 м², терраса 11,90 м²",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/7-5-2.jpg",
+        "th": "assets/img/plans/7-5-2-t.jpg",
+        "t": "Потолок 4 метра: второй уровень клиент может сделать сам",
+        "k": "plan"
+      },
       {
         "s": "assets/img/lots/tip-A/1.jpg",
         "th": "assets/img/lots/tip-A/1-t.jpg",
@@ -955,6 +1122,18 @@
     ],
     "B1": [
       {
+        "s": "assets/img/plans/7-4-1.jpg",
+        "th": "assets/img/plans/7-4-1-t.jpg",
+        "t": "Планировка: 92,54 м² приведённой, кухня-гостиная 29,63 м², четыре спальни",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/7-4-2.jpg",
+        "th": "assets/img/plans/7-4-2-t.jpg",
+        "t": "Меблировка: постирочная, два санузла, кухня-гостиная 30 м²",
+        "k": "plan"
+      },
+      {
         "s": "assets/img/lots/tip-B1/1.jpg",
         "th": "assets/img/lots/tip-B1/1-t.jpg",
         "t": "Квартира",
@@ -1233,6 +1412,18 @@
     ],
     "2-21": [
       {
+        "s": "assets/img/plans/2-21-1.jpg",
+        "th": "assets/img/plans/2-21-1-t.jpg",
+        "t": "Планировка: 39,07 м² приведённой, кухня-гостиная 14,25 м², терраса 9,90 м²",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/2-21-2.jpg",
+        "th": "assets/img/plans/2-21-2-t.jpg",
+        "t": "Меблировка: кофе утром на воздухе, ужин на закате",
+        "k": "plan"
+      },
+      {
         "s": "assets/img/lots/mkd-21/1.jpg",
         "th": "assets/img/lots/mkd-21/1-t.jpg",
         "t": "Терраса",
@@ -1261,30 +1452,6 @@
         "th": "assets/img/lots/mkd-21/5-t.jpg",
         "t": "Вид на залив и кварталы",
         "k": "view"
-      },
-      {
-        "s": "assets/img/lots/mkd-21/6.jpg",
-        "th": "assets/img/lots/mkd-21/6-t.jpg",
-        "t": "Планировка",
-        "k": "plan"
-      },
-      {
-        "s": "assets/img/lots/mkd-21/7.jpg",
-        "th": "assets/img/lots/mkd-21/7-t.jpg",
-        "t": "Планировка",
-        "k": "plan"
-      },
-      {
-        "s": "assets/img/lots/mkd-21/8.jpg",
-        "th": "assets/img/lots/mkd-21/8-t.jpg",
-        "t": "Планировка",
-        "k": "plan"
-      },
-      {
-        "s": "assets/img/lots/mkd-21/9.jpg",
-        "th": "assets/img/lots/mkd-21/9-t.jpg",
-        "t": "Планировка",
-        "k": "plan"
       }
     ],
     "16-13": [
@@ -1607,6 +1774,18 @@
     ],
     "16-14": [
       {
+        "s": "assets/img/plans/16-14-1.jpg",
+        "th": "assets/img/plans/16-14-1-t.jpg",
+        "t": "Планировка: 63,38 м² приведённой, кухня-гостиная 20,31 м²",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/16-14-2.jpg",
+        "th": "assets/img/plans/16-14-2-t.jpg",
+        "t": "Меблировка: как встаёт мебель в этой планировке",
+        "k": "plan"
+      },
+      {
         "s": "assets/img/lots/mkd-14/1.jpg",
         "th": "assets/img/lots/mkd-14/1-t.jpg",
         "t": "Терраса",
@@ -1635,24 +1814,6 @@
         "th": "assets/img/lots/mkd-14/5-t.jpg",
         "t": "Вид на залив и кварталы",
         "k": "view"
-      },
-      {
-        "s": "assets/img/lots/mkd-14/6.jpg",
-        "th": "assets/img/lots/mkd-14/6-t.jpg",
-        "t": "Планировка",
-        "k": "plan"
-      },
-      {
-        "s": "assets/img/lots/mkd-14/7.jpg",
-        "th": "assets/img/lots/mkd-14/7-t.jpg",
-        "t": "Планировка",
-        "k": "plan"
-      },
-      {
-        "s": "assets/img/lots/mkd-14/8.jpg",
-        "th": "assets/img/lots/mkd-14/8-t.jpg",
-        "t": "Планировка",
-        "k": "plan"
       }
     ],
     "16-11": [
@@ -1706,6 +1867,20 @@
       }
     ],
     "12-5": [
+      {
+        "s": "assets/img/vecher/dom12-vhod.jpg",
+        "th": "assets/img/vecher/dom12-vhod-t.jpg",
+        "t": "Дом 12 вечером: подсветка входной группы и освещённая дорожка до парковки",
+        "k": "facade",
+        "real": true
+      },
+      {
+        "s": "assets/img/vecher/dom12-vhod2.jpg",
+        "th": "assets/img/vecher/dom12-vhod2-t.jpg",
+        "t": "Вход в дом 12: вечером видно, что подъезд закрыт и освещён",
+        "k": "facade",
+        "real": true
+      },
       {
         "s": "assets/img/lots/tip-A/1.jpg",
         "th": "assets/img/lots/tip-A/1-t.jpg",
@@ -1930,6 +2105,60 @@
       }
     ],
     "16-22": [
+      {
+        "s": "assets/img/plans/16-22-1.jpg",
+        "th": "assets/img/plans/16-22-1-t.jpg",
+        "t": "Планировка: 67,41 м² приведённой, кухня-гостиная 20,61 м², терраса 12,70 м²",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/16-22-2.jpg",
+        "th": "assets/img/plans/16-22-2-t.jpg",
+        "t": "Меблировка и мансардные окна мастер-спальни",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/16-22-3.jpg",
+        "th": "assets/img/plans/16-22-3-t.jpg",
+        "t": "Кухня-гостиная 20,61 м² в интерьере",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/16-22-4.jpg",
+        "th": "assets/img/plans/16-22-4-t.jpg",
+        "t": "Мастер-спальня с гардеробной",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/16-22-5.jpg",
+        "th": "assets/img/plans/16-22-5-t.jpg",
+        "t": "Спальня под мансардным окном",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/16-22-6.jpg",
+        "th": "assets/img/plans/16-22-6-t.jpg",
+        "t": "Детская",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/16-22-7.jpg",
+        "th": "assets/img/plans/16-22-7-t.jpg",
+        "t": "Санузел: в этой квартире их два",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/16-22-8.jpg",
+        "th": "assets/img/plans/16-22-8-t.jpg",
+        "t": "Постирочная и второй санузел",
+        "k": "plan"
+      },
+      {
+        "s": "assets/img/plans/16-22-9.jpg",
+        "th": "assets/img/plans/16-22-9-t.jpg",
+        "t": "Прихожая со встроенным шкафом",
+        "k": "plan"
+      },
       {
         "s": "assets/img/lots/mkd-22/1.jpg",
         "th": "assets/img/lots/mkd-22/1-t.jpg",
@@ -2355,6 +2584,20 @@
     ],
     "5-6": [
       {
+        "s": "assets/img/vecher/dom5-vhod.jpg",
+        "th": "assets/img/vecher/dom5-vhod-t.jpg",
+        "t": "Дом 5 вечером: свет в окнах соседей и подсвеченный вход — двор не выглядит пустым",
+        "k": "facade",
+        "real": true
+      },
+      {
+        "s": "assets/img/vecher/dom5-vhod2.jpg",
+        "th": "assets/img/vecher/dom5-vhod2-t.jpg",
+        "t": "Подъезд дома 5: две лампы над входом, светлый тамбур виден с улицы",
+        "k": "facade",
+        "real": true
+      },
+      {
         "s": "assets/img/lots/tip-G/1.jpg",
         "th": "assets/img/lots/tip-G/1-t.jpg",
         "t": "Квартира",
@@ -2685,6 +2928,20 @@
     ],
     "5-3": [
       {
+        "s": "assets/img/vecher/dom5-vhod.jpg",
+        "th": "assets/img/vecher/dom5-vhod-t.jpg",
+        "t": "Дом 5 вечером: свет в окнах соседей и подсвеченный вход — двор не выглядит пустым",
+        "k": "facade",
+        "real": true
+      },
+      {
+        "s": "assets/img/vecher/dom5-vhod2.jpg",
+        "th": "assets/img/vecher/dom5-vhod2-t.jpg",
+        "t": "Подъезд дома 5: две лампы над входом, светлый тамбур виден с улицы",
+        "k": "facade",
+        "real": true
+      },
+      {
         "s": "assets/img/lots/tip-F/1.jpg",
         "th": "assets/img/lots/tip-F/1-t.jpg",
         "t": "Квартира",
@@ -2796,6 +3053,20 @@
       }
     ],
     "4-4": [
+      {
+        "s": "assets/img/vecher/dom4-vhod.jpg",
+        "th": "assets/img/vecher/dom4-vhod-t.jpg",
+        "t": "Вечер у своего подъезда в доме 4: фасадная подсветка включается сама, фонарь у входа не нужен",
+        "k": "facade",
+        "real": true
+      },
+      {
+        "s": "assets/img/vecher/dom4-vhod2.jpg",
+        "th": "assets/img/vecher/dom4-vhod2-t.jpg",
+        "t": "Вход в дом 4 вечером: домофон, освещённая площадка, никакого тёмного двора",
+        "k": "facade",
+        "real": true
+      },
       {
         "s": "assets/img/lots/tip-F/1.jpg",
         "th": "assets/img/lots/tip-F/1-t.jpg",
@@ -2909,6 +3180,20 @@
     ],
     "5-4": [
       {
+        "s": "assets/img/vecher/dom5-vhod.jpg",
+        "th": "assets/img/vecher/dom5-vhod-t.jpg",
+        "t": "Дом 5 вечером: свет в окнах соседей и подсвеченный вход — двор не выглядит пустым",
+        "k": "facade",
+        "real": true
+      },
+      {
+        "s": "assets/img/vecher/dom5-vhod2.jpg",
+        "th": "assets/img/vecher/dom5-vhod2-t.jpg",
+        "t": "Подъезд дома 5: две лампы над входом, светлый тамбур виден с улицы",
+        "k": "facade",
+        "real": true
+      },
+      {
         "s": "assets/img/lots/tip-B2/1.jpg",
         "th": "assets/img/lots/tip-B2/1-t.jpg",
         "t": "Квартира",
@@ -2965,6 +3250,20 @@
     ],
     "4-3": [
       {
+        "s": "assets/img/vecher/dom4-vhod.jpg",
+        "th": "assets/img/vecher/dom4-vhod-t.jpg",
+        "t": "Вечер у своего подъезда в доме 4: фасадная подсветка включается сама, фонарь у входа не нужен",
+        "k": "facade",
+        "real": true
+      },
+      {
+        "s": "assets/img/vecher/dom4-vhod2.jpg",
+        "th": "assets/img/vecher/dom4-vhod2-t.jpg",
+        "t": "Вход в дом 4 вечером: домофон, освещённая площадка, никакого тёмного двора",
+        "k": "facade",
+        "real": true
+      },
+      {
         "s": "assets/img/lots/tip-B1/1.jpg",
         "th": "assets/img/lots/tip-B1/1-t.jpg",
         "t": "Квартира",
@@ -3020,6 +3319,20 @@
       }
     ],
     "4-5": [
+      {
+        "s": "assets/img/vecher/dom4-vhod.jpg",
+        "th": "assets/img/vecher/dom4-vhod-t.jpg",
+        "t": "Вечер у своего подъезда в доме 4: фасадная подсветка включается сама, фонарь у входа не нужен",
+        "k": "facade",
+        "real": true
+      },
+      {
+        "s": "assets/img/vecher/dom4-vhod2.jpg",
+        "th": "assets/img/vecher/dom4-vhod2-t.jpg",
+        "t": "Вход в дом 4 вечером: домофон, освещённая площадка, никакого тёмного двора",
+        "k": "facade",
+        "real": true
+      },
       {
         "s": "assets/img/lots/tip-G/1.jpg",
         "th": "assets/img/lots/tip-G/1-t.jpg",
@@ -3351,6 +3664,22 @@
         "th": "assets/img/lots/tip-B1/9-t.jpg",
         "t": "Фасад дома",
         "k": "facade"
+      }
+    ],
+    "12-2": [
+      {
+        "s": "assets/img/vecher/dom12-vhod.jpg",
+        "th": "assets/img/vecher/dom12-vhod-t.jpg",
+        "t": "Дом 12 вечером: подсветка входной группы и освещённая дорожка до парковки",
+        "k": "facade",
+        "real": true
+      },
+      {
+        "s": "assets/img/vecher/dom12-vhod2.jpg",
+        "th": "assets/img/vecher/dom12-vhod2-t.jpg",
+        "t": "Вход в дом 12: вечером видно, что подъезд закрыт и освещён",
+        "k": "facade",
+        "real": true
       }
     ]
   },

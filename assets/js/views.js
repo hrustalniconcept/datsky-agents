@@ -423,6 +423,37 @@
     return (d().media.common || []).filter(function (c) { return !kind || c.k === kind; }).slice(0, n || 99);
   }
 
+  /* Каждый вид кадров поделён между страницами: на разных страницах разные фото.
+     Порядок в массиве = порядок долей. Страницы «Материалы» и «Фотоэкскурсия» —
+     это каталоги, они намеренно показывают всё. */
+  var PHOTO_PLAN = {
+    lyudi: ['', 'life', 'client', 'life'],
+    dvor: ['', 'life', 'about'],
+    terrasa: ['', 'life'],
+    dom: ['', 'about'],
+    les: ['park', '', 'park'],
+    sport: ['', 'life', 'park', 'life', 'park'],
+    arh: ['', 'about', 'park', 'about', ''],
+    zaliv: [''],
+    priroda: ['park'],
+    aero: ['about'],
+    vecher: ['', 'life', 'about'],
+    balkon: [''],
+    uchastok: [''],
+    zima: ['life']
+  };
+
+  /* Доля кадров этого вида, закреплённая за маршрутом */
+  function own(kind, route, n) {
+    var all = commonBy(kind, 99);
+    var routes = PHOTO_PLAN[kind];
+    if (!routes) return all.slice(0, n || 99);
+    /* маршрут может стоять в списке несколько раз — так задаётся его доля */
+    var mine = all.filter(function (x, k) { return routes[k % routes.length] === route; });
+    return mine.slice(0, n || 99);
+  }
+  DK.own = own;
+
   /* Раскладывает фото по кругу из нескольких групп: подряд не идут два кадра одного вида */
   function mix(groups) {
     var out = [], i = 0, left = true;
@@ -446,18 +477,18 @@
     var minPrice = Math.min.apply(null, r.lots.map(function (l) { return l.cena_akciya || l.cena_bazovaya; }));
 
     var hero = mix([
-      commonBy('lyudi', 4),
-      commonBy('dvor', 3),
-      commonBy('terrasa', 2),
-      commonBy('dom', 3),
-      commonBy('les', 1),
-      commonBy('arh', 1),
-      commonBy('sport', 1),
-      commonBy('balkon', 1),
-      commonBy('uchastok', 1),
-      commonBy('aero', 1),
-      commonBy('priroda', 1)
-    ]).slice(0, 18);
+      own('lyudi', '', 4),
+      own('vecher', '', 3),
+      own('dvor', '', 3),
+      own('terrasa', '', 2),
+      own('dom', '', 2),
+      own('les', '', 1),
+      own('arh', '', 2),
+      own('sport', '', 1),
+      own('balkon', '', 1),
+      own('uchastok', '', 1),
+      own('aero', '', 1)
+    ]).slice(0, 20);
 
     var tasks = [
       ['Найти квартиру под клиента', 'Генплан, живой реестр, фильтры по спальням, террасе и участку. Фото есть почти по каждому лоту — отправляйте клиенту прямо отсюда.', '#/flats', 'Открыть реестр'],
@@ -479,13 +510,17 @@
     return sec(
       eyebrow('Партнёрам · реестр от ' + esc(s.obnovleno)) +
       '<h1>Объект, который продаёт себя сам. Ваша задача — привезти клиента</h1>' +
-      '<p class="lead">Датский — девятый квартал «Хрустального парка» на Байкальском тракте. Сдан в декабре 2025-го: дома заселены, дворы обжиты, магазин и садик пешком, лес в ста метрах, залив в пятистах.</p>' +
-      '<p class="lead">Уговаривать клиента не придётся — достаточно привезти. Комиссия 4,5% от цены договора, закрепление на 60 дней, персональный менеджер ведёт сделку вместе с вами.</p>' +
+      '<p class="lead lead--big">Привезите клиента в шесть вечера. В окнах горит свет, дети катаются по двору одни, за домами стоит сосновый лес, до воды пятьсот метров. Дальше он уговаривает себя сам — вам остаётся довести до сделки.</p>' +
+      '<p class="lead">Квартал сдан: ключи после сделки, ремонт можно начинать назавтра. Второго готового квартала такого уровня в вашем списке нет. Комиссия — 4,5% от цены договора, до ' + nf(Math.round(maxCom / 1000)) + ' тысяч с одной сделки.</p>' +
       '<div class="actions" style="margin-bottom:34px">' +
       '<a class="btn" href="#/flats">Открыть реестр</a>' +
       '<a class="btn btn--ghost" href="#/tour">Фотоэкскурсия</a>' +
       '</div>' +
       gallery(hero, 'gal--wide') +
+      '<figure class="filmbox">' +
+      '<video controls preload="none" playsinline poster="assets/img/vecher/zakat-ryad.jpg" src="assets/video/hp-obshchee.mp4"></video>' +
+      '<figcaption>Фильм о «Хрустальном парке» целиком: девять кварталов, инфраструктура, люди. Отправляйте иногороднему клиенту первым сообщением — он поймёт масштаб быстрее, чем по любому описанию.</figcaption>' +
+      '</figure>' +
       '<div class="grid g4">' +
       stat(r.vsego_lotov, 'квартир в остатке') +
       stat(mln(minPrice).replace(' млн', '') + ' млн', 'самая доступная') +
@@ -522,7 +557,7 @@
       '<div class="card"><h4>Спорт по всем девяти кварталам</h4><p class="small" style="margin:0">Воркаут-площадки, спортивные коробки с покрытием, теннисные столы. Житель Датского ходит на любую: микрорайон общий, гуляют по всей территории.</p></div>' +
       '<div class="card"><h4>Байкал-Арена за 14 минут</h4><p class="small" style="margin:0">Больше сорока секций для детей от трёх лет, бассейн 25 метров, залы и сауна. Две поездки в неделю вместо ежедневного городского маршрута по трём адресам.</p></div>' +
       '</div>' +
-      gallery(mix([commonBy('zaliv'), commonBy('les'), commonBy('sport'), commonBy('arh'), commonBy('priroda')]), 'gal--wide') +
+      gallery(mix([own('zaliv', ''), own('les', ''), own('sport', ''), own('arh', '')]), 'gal--wide') +
       '<div class="actions"><a class="btn btn--ghost" href="#/park">Что вокруг: три пояса инфраструктуры</a>' +
       '<a class="btn btn--ghost" href="#/life">Как здесь живут круглый год</a></div>'
     ) +
@@ -536,6 +571,15 @@
           return '<div class="award award--sm"><span class="award__y">' + esc(n.y) + '</span>' +
             '<h4>' + esc(n.t) + '</h4><p class="award__n">' + esc(n.n) + '</p></div>';
         }).join('') + '</div>' +
+        (function () {
+          var F = (d().project.nagrady.foto || []).filter(function (x) { return x.s.indexOf('vruchenie') > -1; });
+          var Z = d().project.nagrady.fayzullin;
+          return (F.length ? gallery(F, 'gal--wide') : '') +
+            (Z ? '<div class="note note--ok" style="margin-top:18px"><p class="note__t">А вы знали</p>' +
+              '<p>' + esc(Z.d) + ' ' + esc(Z.z) +
+              (Z.istochnik ? ' <a href="' + esc(Z.istochnik.u) + '" target="_blank" rel="noopener">' + esc(Z.istochnik.t) + ' →</a>' : '') +
+              '</p></div>' : '');
+        })() +
         '<p class="small" style="margin-top:14px">Стройку финансирует ПАО «Сбербанк», деньги покупателей до передачи ключей лежат на эскроу по 214-ФЗ. <a href="#/about">Все доказательства качества →</a></p>'
       );
     })() +
@@ -923,7 +967,7 @@
     sec(
       '<h2>Что вокруг квартала</h2>' +
       '<p class="lead">Лес в ста метрах, залив Щучий примерно в пятистах, восемь соседних кварталов со своей инфраструктурой. Полный разбор по трём поясам, замеры 2ГИС и школы — на отдельной странице.</p>' +
-      gallery(mix([commonBy('les'), commonBy('zaliv'), commonBy('priroda'), commonBy('sport', 2), commonBy('aero', 1)]), 'gal--wide') +
+      gallery(mix([own('lyudi', 'client')]), 'gal--wide') +
       '<div class="actions"><a class="btn btn--ghost" href="#/park">Три пояса инфраструктуры</a>' +
       '<a class="btn btn--ghost" href="#/life">Образ жизни и соседи</a></div>',
       'section--alt'
@@ -1214,7 +1258,7 @@
       '<p class="eyebrow"><a href="#/client">Клиенту</a> · среда</p>' +
       '<h1>Что вокруг квартала</h1>' +
       '<p class="lead">Датский — девятый квартал микрорайона. Клиент покупает не только квартиру: лес в ста метрах, залив Щучий примерно в пятистах, восемь соседних кварталов, по которым гуляют так же свободно, как по своему двору.</p>' +
-      gallery(DK.mix([DK.commonBy('les'), DK.commonBy('zaliv'), DK.commonBy('sport'), DK.commonBy('priroda'), DK.commonBy('arh'), DK.commonBy('aero')]), 'gal--wide')
+      gallery(DK.mix([DK.own('les', 'park'), DK.own('zaliv', 'park'), DK.own('sport', 'park'), DK.own('priroda', 'park'), DK.own('arh', 'park')]), 'gal--wide')
     ) +
     sec(
       '<h2>Три пояса инфраструктуры</h2>' +
@@ -1378,10 +1422,11 @@
   function life() {
     var L = d().life;
     var pics = mix([
-      commonBy('lyudi', 8),
-      commonBy('dvor', 4),
-      commonBy('arh', 2),
-      commonBy('aero', 2)
+      own('lyudi', 'life'),
+      own('dvor', 'life'),
+      own('vecher', 'life'),
+      own('terrasa', 'life', 2),
+      own('priroda', 'life')
     ]);
 
     return sec(
@@ -1405,9 +1450,39 @@
     ) +
 
     sec(
+      eyebrow('Ролик, с которого стоит начинать разговор') +
+      '<h2>ХП-ФЕСТ: 250 гостей в один вечер</h2>' +
+      '<p class="lead">Две минуты, которые отвечают на «а там не скучно?» лучше любого списка мероприятий. Фестиваль жители придумывают и собирают сами, застройщик только помогает. Ссылку можно переслать клиенту — Telegram откроется в браузере.</p>' +
+      '<div class="actions"><a class="btn" href="' + tg(2091) + '" target="_blank" rel="noopener">Смотреть ХП-ФЕСТ, 1:59</a>' +
+      '<a class="btn btn--ghost" href="' + tg(2359) + '" target="_blank" rel="noopener">Тур по кварталу, 2:07</a></div>',
+      'section--dark'
+    ) +
+
+    sec(
+      '<h2>' + esc(L.sport.title) + '</h2>' +
+      '<p class="lead">' + esc(L.sport.lead) + '</p>' +
+      gallery(mix([own('sport', 'life')]), 'gal--wide') +
+      '<div class="grid g4">' + L.sport.punkty.map(function (p) {
+        return '<div class="card"><h4>' + esc(p.t) + '</h4><p class="small" style="margin:0">' + esc(p.d) + '</p></div>';
+      }).join('') + '</div>' +
+      '<blockquote style="margin-top:22px">' + esc(L.sport.vyvod) + '</blockquote>'
+    ) +
+
+    sec(
+      eyebrow('Сделка, которую риелторы не замечают') +
+      '<h2>' + esc(L.pokolenie.title) + '</h2>' +
+      '<p class="lead">' + esc(L.pokolenie.lead) + '</p>' +
+      '<div class="grid g3">' + L.pokolenie.punkty.map(function (p) {
+        return '<div class="card"><h4>' + esc(p.t) + '</h4><p class="small" style="margin:0">' + esc(p.d) + '</p></div>';
+      }).join('') + '</div>' +
+      '<blockquote style="margin-top:22px">' + esc(L.pokolenie.vyvod) + '</blockquote>',
+      'section--alt'
+    ) +
+
+    sec(
       '<h2>' + esc(L.priroda.title) + '</h2>' +
       '<p class="lead">' + esc(L.priroda.lead) + '</p>' +
-      gallery(mix([commonBy('zaliv'), commonBy('les'), commonBy('sport'), commonBy('arh')]), 'gal--wide') +
+      gallery(mix([own('sport', 'life'), own('priroda', 'life')]), 'gal--wide') +
       '<div class="grid g3">' + L.priroda.punkty.map(function (p) {
         return '<div class="card"><h4>' + esc(p.t) + '</h4><p class="small">' + esc(p.d) + '</p>' + tgLinks(p.posts, 'смотреть') + '</div>';
       }).join('') + '</div>' +
@@ -1418,7 +1493,7 @@
     sec(
       '<h2>Квартал в разные сезоны</h2>' +
       '<p class="lead">Кадры для показа и для объявлений: двор летом и зимой, вода рядом, вид с высоты.</p>' +
-      gallery(commonBy('dvor').slice(4).concat(commonBy('zima')).concat(commonBy('terrasa', 3)).concat(commonBy('dom', 3)), 'gal--wide')
+      gallery(mix([own('vecher', 'life'), own('zima', 'life'), own('terrasa', 'life'), own('dvor', 'life')]), 'gal--wide')
     ) +
     sec(
       eyebrow(DK.plural(L.meropriyatiya.length, 'ролик', 'ролика', 'роликов') + ' с мероприятий и из жизни квартала') +
@@ -1549,6 +1624,13 @@
           '<h3>' + esc(n.t) + '</h3><p class="award__n">' + esc(n.n) + '</p>' +
           '<p class="small" style="margin:0">' + esc(n.d) + '</p></div>';
       }).join('') + '</div>' +
+      (P.nagrady.foto ? gallery(P.nagrady.foto.filter(function (x) { return x.s.indexOf('vruchenie') < 0; }), 'gal--wide') : '') +
+      (P.nagrady.fayzullin
+        ? '<h3 style="margin-top:26px">' + esc(P.nagrady.fayzullin.t) + '</h3>' +
+          '<p class="lead">' + esc(P.nagrady.fayzullin.d) + '</p>' +
+          '<p class="small">' + esc(P.nagrady.fayzullin.z) +
+          (P.nagrady.fayzullin.istochnik ? ' <a href="' + esc(P.nagrady.fayzullin.istochnik.u) + '" target="_blank" rel="noopener">' + esc(P.nagrady.fayzullin.istochnik.t) + ' →</a>' : '') + '</p>'
+        : '') +
       note('Нужны файлы', esc(P.nagrady.logo_todo)),
       'section--alt'
     ) +
@@ -1584,7 +1666,7 @@
       '<h2>Квартал и двор</h2>' +
       '<p class="lead">' + esc(P.kvartal.lead) + '</p>' +
       tbl(P.kvartal.rows) +
-      gallery(mix([commonBy('arh'), commonBy('dvor', 4), commonBy('les'), commonBy('aero', 2)]), 'gal--wide'),
+      gallery(mix([own('arh', 'about'), own('dvor', 'about'), own('vecher', 'about'), own('les', 'about'), own('aero', 'about'), own('dom', 'about')]), 'gal--wide'),
       'section--alt'
     ) +
     sec(

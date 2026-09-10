@@ -65,6 +65,11 @@ main { min-height: 60vh; padding-bottom: 80px; }
 .section--dark .note { background: rgba(255,255,255,.07); border-color: rgba(255,255,255,.16); border-left-color: #C3AEE8; }
 .section--dark .note p { color: rgba(255,255,255,.75); }
 .section--dark .note__t { color: #fff; }
+.filmbox { margin: 26px 0 0; }
+.filmbox video { width: 100%; display: block; border-radius: 14px; background: #000; aspect-ratio: 16/9; }
+.filmbox figcaption { margin-top: 10px; font-size: 14px; line-height: 1.5; color: var(--c-ink-2); }
+.section--dark .filmbox figcaption { color: rgba(255,255,255,.75); }
+.lead--big { font-size: clamp(19px, 2.1vw, 24px); line-height: 1.45; color: var(--c-ink); font-weight: 500; }
 .section--dark .pill { border-color: rgba(255,255,255,.28); color: rgba(255,255,255,.8); }
 .section--dark .badge--bron { background: rgba(255,255,255,.14); color: rgba(255,255,255,.86); }
 .section--dark table.tbl { background: transparent; color: #fff; }
